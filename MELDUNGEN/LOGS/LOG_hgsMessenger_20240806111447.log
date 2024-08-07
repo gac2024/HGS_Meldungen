@@ -1,0 +1,57 @@
+################################################################################
+#####   Generator -> Aktualisierungmeldung 
+################################################################################
+Started: 2024-08-06 11:14:47
+
+###############################################
+Arguments:
+###############################################
+ projektname                   : RANOREX
+ TESTFALLNAME                  : ausser_Betrieb
+ mainpath                      : C:\_Daten\Projekte\MELDUNGEN\
+ MELDUNGSNAME                  : Aktualisierungmeldung
+ testfallname                  : ausser_Betrieb
+ meldungsname                  : Aktualisierungmeldung
+ PROJEKTNAME                   : RANOREX
+ MAINPATH                      : C:\_Daten\Projekte\MELDUNGEN\
+###############################################
+
+
+###############################################
+Eingangsdaten:
+###############################################
+
+AktualisierungsMeldung:sstVersion = 3.10
+AktualisierungsMeldung:versionKey = -1
+AktualisierungsMeldung:zeitpunkt = 
+AktualisierungsMeldung:aktualisierungstyp = STATUS
+AktualisierungsMeldung:status = 2
+------------------------------------------
+automatenStatus_1:betriebStatus = AUSSER_BETRIEB
+automatenStatus_1:letzteInteraktion = 
+automatenStatus_1:letzterVerkauf = 
+------------------------------------------
+GLOBAL:PROJEKTNAME = RANOREX
+GLOBAL:DATABASE = C:\_Daten\Projekte\MELDUNGEN\/CONFIG\RANOREX\database.ini
+GLOBAL:AUTOMAT = 999000
+GLOBAL:URLHGS = https://uestra.dev.ti-ica.de/dplus/services/automatenService/3_10/?wsdl
+GLOBAL:VERSION = 3.10
+------------------------------------------
+
+###############################################
+
+###############################################
+Message:
+###############################################
+<s:Envelope xmlns:s="http://schemas.xmlsoap.org/soap/envelope/">
+    <s:Body xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+        <empfangeAktualisierungmeldung xmlns="http://tms.ica.de/automatenService/wsdl/3_10/">
+            <faaAktualisierungmeldung xmlns="http://tms.ica.de/automatenService/3_10/">
+                <automatenStatus betriebStatus="AUSSER_BETRIEB" letzteInteraktion="2024-08-06T11:14:47.282+02:00" letzterVerkauf="2024-08-06T11:14:47.283+02:00"/>
+            </faaAktualisierungmeldung>
+        </empfangeAktualisierungmeldung>
+    </s:Body>
+</s:Envelope>
+
+
+###############################################

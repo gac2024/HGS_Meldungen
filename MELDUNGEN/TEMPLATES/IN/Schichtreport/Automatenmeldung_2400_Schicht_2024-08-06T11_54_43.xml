@@ -1,0 +1,273 @@
+<s:Envelope xmlns:s="http://schemas.xmlsoap.org/soap/envelope/">
+    <s:Body xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+        <empfangeSchichtreport xmlns="http://tms.ica.de/automatenService/wsdl/3_10/">
+            <faaSchichtreport xmlns="http://tms.ica.de/automatenService/3_10/" sstVersion="3.10">
+                <verkaufspunkt betreiber="99" ipAdresse="" posNummer="2400" seriennummer="2400"/>
+                <versionKey>-1</versionKey>
+                <abrechnungsnummer>19</abrechnungsnummer>
+                <verkaeufer>automat</verkaeufer>
+                <servicetechniker>5555</servicetechniker>
+                <verkaeufe anzahlPerson="1" artikelnummer="9298" beginnGueltigkeit="2024-08-06T13:52:47+02:00" endeGueltigkeit="2024-08-07T13:53:28+02:00" fahrzeugKennung="" gattung="16964" kundengruppe="0" linie="0" linieVariante="0" medium="PAPIER" mediumID="0" mwstSatz="0" preisstufe="100013" preisstufenText="ABC" produktbezeichnung="Tageskarte Kind" produktkennung="IDP_GVH_4" produktkennungExtern="ABC" relationsnummer="" richtung="1" sprache="0" startGemeinde="0" startHaltestelle="25701731" startZone="4000000110" status="0" subvention="0" tarif="3" tarifBezeichnung="- - -|Tarif_3" tarifstufe="" ticketNummer="6" transaktionsnummer="7" verkaufHaltestelle="25701731" verkaufZone="4000000110" verkaufsart="PT_VERKAUF" verkehr="1" viaZone="0" wegVariante="0" zeitpunkt="2024-08-06T13:53:28+02:00" zielGemeinde="0" zielHaltestelle="0" zielZone="0" zusatzInformationen="">
+                    <pfand betrag="0" waehrung="EUR"/>
+                    <preis betrag="260" waehrung="EUR"/>
+                    <metadaten guid="ff97715d-0751-4364-a67d-2c3b8de8f561" sequenznummer="2120"/>
+                </verkaeufe>
+                <quittungen anzahltransaktionen="1" geldkarteHseq="" geldkarteSseq="" geldkartenBseq="" geldkartenNr="" gueltigkeitKreditkarte="" haendlerkartennr="" kartennummerKreditkarte="" kartennummergirocard="" muenzenNotenEingegeben="EUR500," muenzenNotenZurueckgegeben="h2-200h3-10h1-100" statusStorno="0" statusTransaktion="0" terminalIdGiroCard="" terminalIdKreditkarte="0" transaktionsnummer="7" transaktionsnummerGiroCard="0" transaktionsnummerKreditkarte="0" zahlungsart="0" zeitpunkt="2024-08-06T13:53:29+02:00">
+                    <pfandTotal betrag="0" waehrung="EUR"/>
+                    <preisTotal betrag="260" waehrung="EUR"/>
+                    <einzahlungsbetrag betrag="500" waehrung="EUR"/>
+                    <ueberzahlungsbetrag betrag="0" waehrung="EUR"/>
+                    <rueckerstattungsbetragSoll betrag="240" waehrung="EUR"/>
+                    <rueckerstattungsbetragIst betrag="0" waehrung="EUR"/>
+                    <stoerbetrag betrag="240" waehrung="EUR"/>
+                    <metadaten guid="24577e65-5215-4831-927e-bc8552189791" sequenznummer="2121"/>
+                </quittungen>
+                <produktausgaben abschnittsnummerPapier="0005412" abschnittsnummerPapierStart="0005412" alarm="0" ausgabeBaugruppe="DEV_PRN_1" ausgabeMediumTyp="PAPIER" ausgabeVorratsbehaelter="PRN_PB_1" ausgabemedium="SORT_1" ausgabestatus="0" charge="" einbaupositionBaugruppe="1" materialcode="0" medienkennung="00188360005412" medienkennungStart="00188360005412" seriennummerPapier="018836" ticketNummer="6" transaktionsnummer="7" verwendung="1" zeitpunkt="2024-08-06T13:53:05+02:00">
+                    <metadaten guid="2545e9e6-8bba-4b4e-8766-44c103550c77" sequenznummer="2116"/>
+                </produktausgaben>
+                <produktausgaben abschnittsnummerPapier="0005410" abschnittsnummerPapierStart="0005411" alarm="0" ausgabeBaugruppe="DEV_PRN_1" ausgabeMediumTyp="PAPIER" ausgabeVorratsbehaelter="PRN_PB_1" ausgabemedium="SORT_1" ausgabestatus="0" charge="" einbaupositionBaugruppe="1" materialcode="0" medienkennung="00188360005410" medienkennungStart="00188360005411" seriennummerPapier="018836" ticketNummer="69" transaktionsnummer="0" verwendung="2" zeitpunkt="2024-08-06T13:54:23+02:00">
+                    <metadaten guid="f3b552cf-ccc8-4e87-80a4-3afc3c529bf2" sequenznummer="2156"/>
+                </produktausgaben>
+                <produktausgaben abschnittsnummerPapier="0005408" abschnittsnummerPapierStart="0005409" alarm="0" ausgabeBaugruppe="DEV_PRN_1" ausgabeMediumTyp="PAPIER" ausgabeVorratsbehaelter="PRN_PB_1" ausgabemedium="SORT_1" ausgabestatus="0" charge="" einbaupositionBaugruppe="1" materialcode="0" medienkennung="00188360005408" medienkennungStart="00188360005409" seriennummerPapier="018836" ticketNummer="70" transaktionsnummer="0" verwendung="5" zeitpunkt="2024-08-06T13:54:29+02:00">
+                    <metadaten guid="8331b2ec-dfbd-4882-b343-370cfa5211a3" sequenznummer="2157"/>
+                </produktausgaben>
+                <produktausgaben abschnittsnummerPapier="0005403" abschnittsnummerPapierStart="0005407" alarm="0" ausgabeBaugruppe="DEV_PRN_1" ausgabeMediumTyp="PAPIER" ausgabeVorratsbehaelter="PRN_PB_1" ausgabemedium="SORT_1" ausgabestatus="0" charge="" einbaupositionBaugruppe="1" materialcode="0" medienkennung="00188360005403" medienkennungStart="00188360005407" seriennummerPapier="018836" ticketNummer="71" transaktionsnummer="0" verwendung="10" zeitpunkt="2024-08-06T13:54:36+02:00">
+                    <metadaten guid="2d495dcc-fe7e-4b4b-9d25-3d8105a9a83b" sequenznummer="2158"/>
+                </produktausgaben>
+                <geldlogistik abrechnung="1" einschubNr="1" geldlogistiker="5555" geldspeicherId="47211168" geldspeichertyp="WGR" vorgangstyp="INFORMATION" zeitpunkt="2024-08-06T13:54:06+02:00">
+                    <geldbetrag betrag="0" waehrung="EUR"/>
+                    <bestandSorte anzahl="0">
+                        <nennwert waehrung="EUR" wertigkeit="20"/>
+                    </bestandSorte>
+                    <metadaten guid="1915af0e-1814-4ce5-a996-0847c0681bc3" sequenznummer="2132"/>
+                </geldlogistik>
+                <geldlogistik abrechnung="1" einschubNr="2" geldlogistiker="5555" geldspeicherId="44211138" geldspeichertyp="WGR" vorgangstyp="INFORMATION" zeitpunkt="2024-08-06T13:54:06+02:00">
+                    <geldbetrag betrag="0" waehrung="EUR"/>
+                    <bestandSorte anzahl="0">
+                        <nennwert waehrung="EUR" wertigkeit="5"/>
+                    </bestandSorte>
+                    <metadaten guid="23a21eff-88d2-4231-b682-50b4ebc24ada" sequenznummer="2134"/>
+                </geldlogistik>
+                <geldlogistik abrechnung="1" einschubNr="3" geldlogistiker="5555" geldspeicherId="42211167" geldspeichertyp="WGR" vorgangstyp="INFORMATION" zeitpunkt="2024-08-06T13:54:07+02:00">
+                    <geldbetrag betrag="0" waehrung="EUR"/>
+                    <bestandSorte anzahl="0">
+                        <nennwert waehrung="EUR" wertigkeit="50"/>
+                    </bestandSorte>
+                    <metadaten guid="1dbea842-0bb9-4e53-a23d-f83720d6f7e5" sequenznummer="2136"/>
+                </geldlogistik>
+                <geldlogistik abrechnung="1" einschubNr="4" geldlogistiker="5555" geldspeicherId="43211148" geldspeichertyp="WGR" vorgangstyp="INFORMATION" zeitpunkt="2024-08-06T13:54:08+02:00">
+                    <geldbetrag betrag="0" waehrung="EUR"/>
+                    <bestandSorte anzahl="0">
+                        <nennwert waehrung="EUR" wertigkeit="10"/>
+                    </bestandSorte>
+                    <metadaten guid="5e6f1f03-9985-44ea-986f-0df7957afbea" sequenznummer="2138"/>
+                </geldlogistik>
+                <geldlogistik abrechnung="1" einschubNr="5" geldlogistiker="5555" geldspeicherId="40211179" geldspeichertyp="WGR" vorgangstyp="INFORMATION" zeitpunkt="2024-08-06T13:54:09+02:00">
+                    <geldbetrag betrag="0" waehrung="EUR"/>
+                    <bestandSorte anzahl="0">
+                        <nennwert waehrung="EUR" wertigkeit="200"/>
+                    </bestandSorte>
+                    <metadaten guid="bb088755-f68c-4bf0-b88c-b3967fdd686b" sequenznummer="2140"/>
+                </geldlogistik>
+                <geldlogistik abrechnung="1" einschubNr="6" geldlogistiker="5555" geldspeicherId="41211176" geldspeichertyp="WGR" vorgangstyp="INFORMATION" zeitpunkt="2024-08-06T13:54:09+02:00">
+                    <geldbetrag betrag="0" waehrung="EUR"/>
+                    <bestandSorte anzahl="0">
+                        <nennwert waehrung="EUR" wertigkeit="100"/>
+                    </bestandSorte>
+                    <metadaten guid="efa9aac9-7068-4aec-9b49-00951b105511" sequenznummer="2142"/>
+                </geldlogistik>
+                <geldlogistik abrechnung="1" einschubNr="1" geldlogistiker="5555" geldspeicherId="31210510" geldspeichertyp="ZGS" vorgangstyp="INFORMATION" zeitpunkt="2024-08-06T13:54:11+02:00">
+                    <geldbetrag betrag="10000" waehrung="EUR"/>
+                    <bestandSorte anzahl="100">
+                        <nennwert waehrung="EUR" wertigkeit="100"/>
+                    </bestandSorte>
+                    <metadaten guid="c0258d52-ec25-4f07-add5-ef831cdeb12d" sequenznummer="2144"/>
+                </geldlogistik>
+                <geldlogistik abrechnung="1" einschubNr="2" geldlogistiker="5555" geldspeicherId="34204823" geldspeichertyp="ZGS" vorgangstyp="INFORMATION" zeitpunkt="2024-08-06T13:54:11+02:00">
+                    <geldbetrag betrag="20000" waehrung="EUR"/>
+                    <bestandSorte anzahl="100">
+                        <nennwert waehrung="EUR" wertigkeit="200"/>
+                    </bestandSorte>
+                    <metadaten guid="37e68ffd-54ec-4b66-83c5-1485e287e94b" sequenznummer="2146"/>
+                </geldlogistik>
+                <geldlogistik abrechnung="1" einschubNr="3" geldlogistiker="5555" geldspeicherId="33201609" geldspeichertyp="ZGS" vorgangstyp="INFORMATION" zeitpunkt="2024-08-06T13:54:12+02:00">
+                    <geldbetrag betrag="14000" waehrung="EUR"/>
+                    <bestandSorte anzahl="1400">
+                        <nennwert waehrung="EUR" wertigkeit="10"/>
+                    </bestandSorte>
+                    <metadaten guid="d27a8dd0-a28f-44b4-8765-65a92d227699" sequenznummer="2148"/>
+                </geldlogistik>
+                <geldlogistik abrechnung="1" einschubNr="1" geldlogistiker="5555" geldspeicherId="80211631" geldspeichertyp="MEK" vorgangstyp="INFORMATION" zeitpunkt="2024-08-06T13:54:14+02:00">
+                    <geldbetrag betrag="410" waehrung="EUR"/>
+                    <bestandSorte anzahl="4">
+                        <nennwert waehrung="EUR" wertigkeit="10"/>
+                    </bestandSorte>
+                    <bestandSorte anzahl="1">
+                        <nennwert waehrung="EUR" wertigkeit="20"/>
+                    </bestandSorte>
+                    <bestandSorte anzahl="7">
+                        <nennwert waehrung="EUR" wertigkeit="50"/>
+                    </bestandSorte>
+                    <metadaten guid="73f41758-5c20-4e87-8ebf-7897a0f03c44" sequenznummer="2150"/>
+                </geldlogistik>
+                <geldlogistik abrechnung="1" einschubNr="1" geldlogistiker="5555" geldspeicherId="676000331" geldspeichertyp="BEK" vorgangstyp="INFORMATION" zeitpunkt="2024-08-06T13:54:14+02:00">
+                    <geldbetrag betrag="1500" waehrung="EUR"/>
+                    <bestandSorte anzahl="1">
+                        <nennwert waehrung="EUR" wertigkeit="500"/>
+                    </bestandSorte>
+                    <bestandSorte anzahl="1">
+                        <nennwert waehrung="EUR" wertigkeit="1000"/>
+                    </bestandSorte>
+                    <metadaten guid="17283194-3321-466f-a3ad-91ced6995f07" sequenznummer="2152"/>
+                </geldlogistik>
+                <geldlogistik abrechnung="1" einschubNr="0" geldlogistiker="5555" geldspeicherId="99" geldspeichertyp="BEK" vorgangstyp="INFORMATION" zeitpunkt="2024-08-06T13:54:14+02:00">
+                    <geldbetrag betrag="0" waehrung="EUR"/>
+                    <metadaten guid="3fc0729f-f3db-4c9d-900f-65d80b0d9b43" sequenznummer="2154"/>
+                </geldlogistik>
+                <geldlogistik abrechnung="2" einschubNr="1" geldlogistiker="5555" geldspeicherId="47211168" geldspeichertyp="WGR" vorgangstyp="INFORMATION" zeitpunkt="2024-08-05T23:59:10+02:00">
+                    <geldbetrag betrag="20" waehrung="EUR"/>
+                    <bestandSorte anzahl="1">
+                        <nennwert waehrung="EUR" wertigkeit="20"/>
+                    </bestandSorte>
+                    <metadaten guid="f2206c40-9925-4ab8-9ecf-0a9c2c3d7968" sequenznummer="2160"/>
+                </geldlogistik>
+                <geldlogistik abrechnung="2" einschubNr="2" geldlogistiker="5555" geldspeicherId="44211138" geldspeichertyp="WGR" vorgangstyp="INFORMATION" zeitpunkt="2024-08-05T23:59:10+02:00">
+                    <geldbetrag betrag="0" waehrung="EUR"/>
+                    <bestandSorte anzahl="0">
+                        <nennwert waehrung="EUR" wertigkeit="5"/>
+                    </bestandSorte>
+                    <metadaten guid="33e6a441-9d34-4d3e-8f10-ecb2c4e1cb04" sequenznummer="2161"/>
+                </geldlogistik>
+                <geldlogistik abrechnung="2" einschubNr="3" geldlogistiker="5555" geldspeicherId="42211167" geldspeichertyp="WGR" vorgangstyp="INFORMATION" zeitpunkt="2024-08-05T23:59:10+02:00">
+                    <geldbetrag betrag="350" waehrung="EUR"/>
+                    <bestandSorte anzahl="7">
+                        <nennwert waehrung="EUR" wertigkeit="50"/>
+                    </bestandSorte>
+                    <metadaten guid="4892aa36-f290-430d-94aa-ebc5f66043d8" sequenznummer="2162"/>
+                </geldlogistik>
+                <geldlogistik abrechnung="2" einschubNr="4" geldlogistiker="5555" geldspeicherId="43211148" geldspeichertyp="WGR" vorgangstyp="INFORMATION" zeitpunkt="2024-08-05T23:59:11+02:00">
+                    <geldbetrag betrag="40" waehrung="EUR"/>
+                    <bestandSorte anzahl="4">
+                        <nennwert waehrung="EUR" wertigkeit="10"/>
+                    </bestandSorte>
+                    <metadaten guid="dee55bc7-2e14-4fed-97a6-717733bd020e" sequenznummer="2163"/>
+                </geldlogistik>
+                <geldlogistik abrechnung="2" einschubNr="5" geldlogistiker="5555" geldspeicherId="40211179" geldspeichertyp="WGR" vorgangstyp="INFORMATION" zeitpunkt="2024-08-05T23:59:11+02:00">
+                    <geldbetrag betrag="0" waehrung="EUR"/>
+                    <bestandSorte anzahl="0">
+                        <nennwert waehrung="EUR" wertigkeit="200"/>
+                    </bestandSorte>
+                    <metadaten guid="f56f52e9-1954-457a-9012-5e29f047ea7e" sequenznummer="2164"/>
+                </geldlogistik>
+                <geldlogistik abrechnung="2" einschubNr="6" geldlogistiker="5555" geldspeicherId="41211176" geldspeichertyp="WGR" vorgangstyp="INFORMATION" zeitpunkt="2024-08-05T23:59:12+02:00">
+                    <geldbetrag betrag="0" waehrung="EUR"/>
+                    <bestandSorte anzahl="0">
+                        <nennwert waehrung="EUR" wertigkeit="100"/>
+                    </bestandSorte>
+                    <metadaten guid="0e7473d5-b237-4d79-8481-e2491e8cc5f0" sequenznummer="2165"/>
+                </geldlogistik>
+                <geldlogistik abrechnung="2" einschubNr="1" geldlogistiker="5555" geldspeicherId="31210510" geldspeichertyp="ZGS" vorgangstyp="INFORMATION" zeitpunkt="2024-08-05T23:59:12+02:00">
+                    <geldbetrag betrag="10000" waehrung="EUR"/>
+                    <bestandSorte anzahl="100">
+                        <nennwert waehrung="EUR" wertigkeit="100"/>
+                    </bestandSorte>
+                    <metadaten guid="2c1c24cf-d931-47ac-a59f-928c5f01097c" sequenznummer="2166"/>
+                </geldlogistik>
+                <geldlogistik abrechnung="2" einschubNr="2" geldlogistiker="5555" geldspeicherId="34204823" geldspeichertyp="ZGS" vorgangstyp="INFORMATION" zeitpunkt="2024-08-05T23:59:13+02:00">
+                    <geldbetrag betrag="20000" waehrung="EUR"/>
+                    <bestandSorte anzahl="100">
+                        <nennwert waehrung="EUR" wertigkeit="200"/>
+                    </bestandSorte>
+                    <metadaten guid="c023b95f-ec9a-439c-bfff-c3955a052c5a" sequenznummer="2167"/>
+                </geldlogistik>
+                <geldlogistik abrechnung="2" einschubNr="3" geldlogistiker="5555" geldspeicherId="33201609" geldspeichertyp="ZGS" vorgangstyp="INFORMATION" zeitpunkt="2024-08-05T23:59:13+02:00">
+                    <geldbetrag betrag="14000" waehrung="EUR"/>
+                    <bestandSorte anzahl="1400">
+                        <nennwert waehrung="EUR" wertigkeit="10"/>
+                    </bestandSorte>
+                    <metadaten guid="4d017db0-10d7-4dd1-83b9-ab87c6abec37" sequenznummer="2168"/>
+                </geldlogistik>
+                <geldlogistik abrechnung="2" einschubNr="1" geldlogistiker="5555" geldspeicherId="80211631" geldspeichertyp="MEK" vorgangstyp="INFORMATION" zeitpunkt="2024-08-05T23:59:13+02:00">
+                    <geldbetrag betrag="0" waehrung="EUR"/>
+                    <metadaten guid="148b1908-a993-4781-be00-8e726d77ff89" sequenznummer="2169"/>
+                </geldlogistik>
+                <geldlogistik abrechnung="2" einschubNr="1" geldlogistiker="5555" geldspeicherId="676000331" geldspeichertyp="BEK" vorgangstyp="INFORMATION" zeitpunkt="2024-08-05T23:59:14+02:00">
+                    <geldbetrag betrag="1000" waehrung="EUR"/>
+                    <bestandSorte anzahl="1">
+                        <nennwert waehrung="EUR" wertigkeit="1000"/>
+                    </bestandSorte>
+                    <metadaten guid="4955eb78-5f36-40ed-a93c-813856be74c6" sequenznummer="2170"/>
+                </geldlogistik>
+                <geldlogistik abrechnung="2" einschubNr="0" geldlogistiker="5555" geldspeicherId="99" geldspeichertyp="BEK" vorgangstyp="INFORMATION" zeitpunkt="2024-08-05T23:59:14+02:00">
+                    <geldbetrag betrag="0" waehrung="EUR"/>
+                    <metadaten guid="4d4ddf18-03ca-4103-a0f8-ce70d9062701" sequenznummer="2171"/>
+                </geldlogistik>
+                <abrechnung abrechnungBeginn="2024-08-05T23:59:15+02:00" abrechnungEnde="2024-08-06T13:54:15+02:00" anzahlStatistiken="0">
+                    <summeWaehrung>
+                        <summeWGRStart betrag="410" waehrung="EUR"/>
+                        <summeZGSStart betrag="44000" waehrung="EUR"/>
+                        <summeMEKStart betrag="0" waehrung="EUR"/>
+                        <summeBEKStart betrag="1000" waehrung="EUR"/>
+                        <summeWGRZugefuehrt betrag="0" waehrung="EUR"/>
+                        <summeZGSZugefuehrt betrag="0" waehrung="EUR"/>
+                        <summeWGRAbgefuehrt betrag="0" waehrung="EUR"/>
+                        <summeZGSAbgefuehrt betrag="0" waehrung="EUR"/>
+                        <summeMEKAbgefuehrt betrag="0" waehrung="EUR"/>
+                        <summeBEKAbgefuehrt betrag="0" waehrung="EUR"/>
+                        <summeWGR betrag="0" waehrung="EUR"/>
+                        <detailsZahlungsart anzahlGeldbehaelterwechsel="0" anzahlkassenschnitt="0" zahlungsart="0">
+                            <summeEinzahlungsbetrag betrag="500" waehrung="EUR"/>
+                            <summeUeberzahlungsbetrag betrag="0" waehrung="EUR"/>
+                            <summeRueckerstattungsbetrag betrag="240" waehrung="EUR"/>
+                            <summeStoerbetrag betrag="240" waehrung="EUR"/>
+                        </detailsZahlungsart>
+                        <detailsZahlungsart anzahlGeldbehaelterwechsel="0" anzahlkassenschnitt="0" zahlungsart="1">
+                            <summeEinzahlungsbetrag betrag="0" waehrung="EUR"/>
+                            <summeUeberzahlungsbetrag betrag="0" waehrung="EUR"/>
+                            <summeRueckerstattungsbetrag betrag="0" waehrung="EUR"/>
+                            <summeStoerbetrag betrag="0" waehrung="EUR"/>
+                        </detailsZahlungsart>
+                        <detailsZahlungsart anzahlGeldbehaelterwechsel="0" anzahlkassenschnitt="0" zahlungsart="2">
+                            <summeEinzahlungsbetrag betrag="0" waehrung="EUR"/>
+                            <summeUeberzahlungsbetrag betrag="0" waehrung="EUR"/>
+                            <summeRueckerstattungsbetrag betrag="0" waehrung="EUR"/>
+                            <summeStoerbetrag betrag="0" waehrung="EUR"/>
+                        </detailsZahlungsart>
+                        <detailsZahlungsart anzahlGeldbehaelterwechsel="0" anzahlkassenschnitt="0" zahlungsart="3">
+                            <summeEinzahlungsbetrag betrag="0" waehrung="EUR"/>
+                            <summeUeberzahlungsbetrag betrag="0" waehrung="EUR"/>
+                            <summeRueckerstattungsbetrag betrag="0" waehrung="EUR"/>
+                            <summeStoerbetrag betrag="0" waehrung="EUR"/>
+                        </detailsZahlungsart>
+                        <summeZGS betrag="44000" waehrung="EUR"/>
+                        <summeMEK betrag="410" waehrung="EUR"/>
+                        <summeBEK betrag="1500" waehrung="EUR"/>
+                    </summeWaehrung>
+                    <metadaten guid="78004caa-6ea0-4bad-88f8-49800eef55b9" sequenznummer="2172"/>
+                </abrechnung>
+                <verkaufsstatistik erstellungszeitpunkt="2024-08-06T13:54:15+02:00">
+                    <produktdetails anzahlProdukte="1" artikelnummer="9298" kundengruppe="0" medium="PAPIER" preisstufe="34477" produktkennung="IDP_GVH_4" tarif="3" tarifbezeichnung="- - -|Tarif_3" tickettyp="0" verkaufsart="PT_VERKAUF" zahlungsart="0">
+                        <einzelPfand betrag="0" waehrung="EUR"/>
+                        <einzelpreis betrag="260" waehrung="EUR"/>
+                        <pfandTotal betrag="0" waehrung="EUR"/>
+                        <preisTotal betrag="260" waehrung="EUR"/>
+                        <ladebetragTotal betrag="0" waehrung="EUR"/>
+                        <metadaten guid="eb80eec1-d68f-41c8-b5b5-6ea93ff04869" sequenznummer="2159"/>
+                    </produktdetails>
+                </verkaufsstatistik>
+                <wartung ausfuehrungsstatus="0" funktionsbezeichnung="Automatenstatus" funktionscode="10" servicetechniker="5555" tuerstatus="OFFEN" zeitpunkt="2024-08-06T13:50:40+02:00">
+                    <metadaten guid="e9abeda0-1462-4f75-8754-0cec4d81889b" sequenznummer="2111"/>
+                </wartung>
+                <wartung ausfuehrungsstatus="0" funktionsbezeichnung="WGR Einkassieren" funktionscode="1" servicetechniker="5555" tuerstatus="GESCHLOSSEN" zeitpunkt="2024-08-06T13:52:31+02:00">
+                    <metadaten guid="c9f83b6c-9c67-43ea-9369-bc0c3f343140" sequenznummer="2113"/>
+                </wartung>
+                <wartung ausfuehrungsstatus="0" funktionsbezeichnung="Automatenstatus" funktionscode="10" servicetechniker="5555" tuerstatus="OFFEN" zeitpunkt="2024-08-06T13:53:52+02:00">
+                    <metadaten guid="9913e120-a4e2-4c66-88cc-cb896e9d1854" sequenznummer="2125"/>
+                </wartung>
+                <wartung ausfuehrungsstatus="1" funktionsbezeichnung="Abrechnung" funktionscode="0" servicetechniker="5555" tuerstatus="OFFEN" zeitpunkt="2024-08-06T13:53:59+02:00">
+                    <metadaten guid="fe937a46-7852-4b04-adf4-fdd376670a2f" sequenznummer="2126"/>
+                </wartung>
+            </faaSchichtreport>
+        </empfangeSchichtreport>
+    </s:Body>
+</s:Envelope>

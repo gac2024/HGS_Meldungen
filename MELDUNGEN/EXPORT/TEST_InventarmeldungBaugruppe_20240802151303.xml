@@ -1,0 +1,11 @@
+<s:Envelope xmlns:s="http://schemas.xmlsoap.org/soap/envelope/">
+    <s:Body xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+        <empfangeInventarmeldungBaugruppe xmlns="http://tms.ica.de/automatenService/wsdl/3_10/">
+            <faaInventarmeldungBaugruppe xmlns="http://tms.ica.de/automatenService/3_10/" zeitpunkt="2024-08-02T15:13:03.147+02:00" vorgangstyp="INSTALLATION" servicetechniker="0" vorgangsnummer="0" einbauposition="0" seriennummer="676000331" herstellerBezeichnung="Citech" betriebsstatus="IN_BETRIEB" gueltigkeit="2024-08-02T15:13:03.134+02:00" abrechnungsnummer="47" version="133313EU25?" sstVersion="3.10">
+                <verkaufspunkt posNummer="9091" betreiber="99" seriennummer="9091" ipAdresse="0.0.0.0"/>
+                <metadaten sequenznummer="90129" guid="f9eb6223-ce61-459c-b3bc-2698952ef6bc"/>
+                <baugruppentyp baugruppenkategorie="BNV" beschreibung="BEK" bezeichnung="BEK" geldspeichertyp="BEK"/>
+            </faaInventarmeldungBaugruppe>
+        </empfangeInventarmeldungBaugruppe>
+    </s:Body>
+</s:Envelope>

@@ -1,0 +1,69 @@
+################################################################################
+#####   Generator -> Aktualisierungmeldung 
+################################################################################
+Started: 2024-08-06 15:54:47
+
+###############################################
+Arguments:
+###############################################
+ projektname                   : TEST
+ TESTFALLNAME                  : Installation
+ mainpath                      : C:\_Daten\Projekte\MELDUNGEN\
+ MELDUNGSNAME                  : Aktualisierungmeldung
+ testfallname                  : Installation
+ meldungsname                  : Aktualisierungmeldung
+ PROJEKTNAME                   : TEST
+ MAINPATH                      : C:\_Daten\Projekte\MELDUNGEN\
+###############################################
+
+
+###############################################
+Eingangsdaten:
+###############################################
+
+Aktualisierungmeldung:aktualisierungstyp = INSTALLATION
+Aktualisierungmeldung:datei = H2400125.DLC
+Aktualisierungmeldung:installationszeitpunkt = 
+Aktualisierungmeldung:kategorie = SOFTWARE
+Aktualisierungmeldung:sstVersion = 3.10
+Aktualisierungmeldung:status = 0
+Aktualisierungmeldung:version = 
+Aktualisierungmeldung:zeitpunkt = 2024-08-06T10:20:20
+------------------------------------------
+GLOBAL:PROJEKTNAME = TEST
+GLOBAL:DATABASE = C:\_Daten\Projekte\MELDUNGEN\/CONFIG\TEST\database.ini
+GLOBAL:AUTOMAT = 9091
+GLOBAL:URLHGS = https://uestra.dev.ti-ica.de/dplus/services/automatenService/3_10/?wsdl
+GLOBAL:VERSION = 3.10
+GLOBAL:TRANSFERFILE = C:\_Daten\Projekte\MELDUNGEN\/CONFIG/TRANSFER/transfer_TEST.ini
+------------------------------------------
+
+###############################################
+
+###############################################
+Message:
+###############################################
+<s:Envelope xmlns:s="http://schemas.xmlsoap.org/soap/envelope/">
+    <s:Body xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+        <empfangeAktualisierungmeldung xmlns="http://tms.ica.de/automatenService/wsdl/3_10/">
+            <faaAktualisierungmeldung xmlns="http://tms.ica.de/automatenService/3_10/" zeitpunkt="2024-08-06T10:20:20.000+02:00" aktualisierungstyp="INSTALLATION" datei="H2400125.DLC" kategorie="SOFTWARE" status="0" sstVersion="3.10">
+                <verkaufspunkt posNummer="9091" betreiber="99" seriennummer="9091" ipAdresse="0.0.0.0"/>
+                <metadaten sequenznummer="90341" guid="d79b896f-beef-459f-bc75-59cd681e24d9"/>
+                <automatenStatus/>
+            </faaAktualisierungmeldung>
+        </empfangeAktualisierungmeldung>
+    </s:Body>
+</s:Envelope>
+
+
+###############################################
+###############################################
+Result:
+###############################################
+OK
+
+###############################################
+################################################################################
+
+Finished: 2024-08-06 15:54:49
+

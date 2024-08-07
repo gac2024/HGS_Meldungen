@@ -1,0 +1,246 @@
+<s:Envelope xmlns:s="http://schemas.xmlsoap.org/soap/envelope/">
+    <s:Body xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+        <empfangeSchichtreport xmlns="http://tms.ica.de/automatenService/wsdl/3_10/">
+            <faaSchichtreport xmlns="http://tms.ica.de/automatenService/3_10/" sstVersion="3.10">
+                <verkaufspunkt posNummer="9091" betreiber="99" seriennummer="9091" ipAdresse="0.0.0.0"/>
+                <versionKey>-1</versionKey>
+                <abrechnungsnummer>25</abrechnungsnummer>
+                <verkaeufer>automat</verkaeufer>
+                <servicetechniker>0</servicetechniker>
+                <verkaeufe zeitpunkt="2024-07-10T09:31:10.000+02:00" transaktionsnummer="36" verkaufsart="PT_VERKAUF" verkaufHaltestelle="25701731" verkaufZone="4000000110" startZone="4000000110" zielZone="0" viaZone="0" wegVariante="0" startGemeinde="0" zielGemeinde="0" verkehr="1" linie="0" linieVariante="0" richtung="1" ticketNummer="63" beginnGueltigkeit="2024-07-10T09:34:00.000+02:00" endeGueltigkeit="2024-07-10T09:34:00.000+02:00" anzahlPerson="1" sprache="0" produktkennung="IDP_GVH_2" produktbezeichnung="Einzelkarte Kind" artikelnummer="9297" tarif="3" tarifBezeichnung="- - -|Tarif_3" medium="PAPIER" mediumID="0" preisstufe="100001" subvention="0" tarifstufe="" mwstSatz="0" gattung="16962" kundengruppe="0" preisstufenText="A" produktkennungExtern="ABC" relationsnummer="" status="0" startHaltestelle="25701731" zielHaltestelle="0" zusatzInformationen="" fahrzeugKennung="">
+                    <pfand betrag="0" waehrung="EUR"/>
+                    <metadaten sequenznummer="90185" guid="e329f689-49f5-46a6-b0fc-8bdd8bb1c69e"/>
+                </verkaeufe>
+                <verkaeufe zeitpunkt="2024-07-10T09:42:19.000+02:00" transaktionsnummer="37" verkaufsart="PT_VERKAUF" verkaufHaltestelle="25701731" verkaufZone="4000000110" startZone="4000000110" zielZone="0" viaZone="0" wegVariante="0" startGemeinde="0" zielGemeinde="0" verkehr="1" linie="0" linieVariante="0" richtung="1" ticketNummer="64" beginnGueltigkeit="2024-07-10T09:42:00.000+02:00" endeGueltigkeit="2024-07-11T09:42:19.000+02:00" anzahlPerson="1" sprache="0" produktkennung="IDP_GVH_7" produktbezeichnung="Tageskarte Gruppe" artikelnummer="9303" tarif="3" tarifBezeichnung="- - -|Tarif_3" medium="PAPIER" mediumID="0" preisstufe="100012" subvention="0" tarifstufe="" mwstSatz="0" gattung="16967" kundengruppe="0" preisstufenText="AB" produktkennungExtern="" relationsnummer="" status="0" startHaltestelle="25701731" zielHaltestelle="0" zusatzInformationen="" fahrzeugKennung="">
+                    <pfand betrag="0" waehrung="EUR"/>
+                    <metadaten sequenznummer="90186" guid="8d416bae-d3bf-4236-8a9b-771d9314b496"/>
+                </verkaeufe>
+                <verkaeufe zeitpunkt="2024-07-10T09:43:54.000+02:00" transaktionsnummer="38" verkaufsart="PT_VERKAUF" verkaufHaltestelle="25701731" verkaufZone="4000000110" startZone="4000000110" zielZone="0" viaZone="0" wegVariante="0" startGemeinde="0" zielGemeinde="0" verkehr="1" linie="0" linieVariante="0" richtung="1" ticketNummer="66" beginnGueltigkeit="2024-07-10T09:43:24.000+02:00" endeGueltigkeit="2024-07-11T09:43:54.000+02:00" anzahlPerson="1" sprache="0" produktkennung="IDP_GVH_6" produktbezeichnung="Tageskarte S Kind" artikelnummer="9301" tarif="3" tarifBezeichnung="- - -|Tarif_3" medium="PAPIER" mediumID="0" preisstufe="100013" subvention="0" tarifstufe="" mwstSatz="0" gattung="16966" kundengruppe="0" preisstufenText="ABC" produktkennungExtern="ABC" relationsnummer="" status="0" startHaltestelle="25701731" zielHaltestelle="0" zusatzInformationen="" fahrzeugKennung="">
+                    <pfand betrag="0" waehrung="EUR"/>
+                    <metadaten sequenznummer="90187" guid="f583f689-0168-4a4a-b8e0-4219eaf35e4f"/>
+                </verkaeufe>
+                <verkaeufe zeitpunkt="2024-07-10T09:49:30.000+02:00" transaktionsnummer="39" verkaufsart="PT_VERKAUF" verkaufHaltestelle="25701731" verkaufZone="4000000110" startZone="4000000110" zielZone="0" viaZone="0" wegVariante="0" startGemeinde="0" zielGemeinde="0" verkehr="1" linie="0" linieVariante="0" richtung="1" ticketNummer="67" beginnGueltigkeit="2024-07-10T09:55:00.000+02:00" endeGueltigkeit="2024-07-10T09:55:00.000+02:00" anzahlPerson="1" sprache="0" produktkennung="IDP_GVH_3" produktbezeichnung="Tageskarte" artikelnummer="9299" tarif="3" tarifBezeichnung="- - -|Tarif_3" medium="PAPIER" mediumID="0" preisstufe="100012" subvention="0" tarifstufe="" mwstSatz="0" gattung="16963" kundengruppe="0" preisstufenText="AB" produktkennungExtern="" relationsnummer="" status="0" startHaltestelle="25701731" zielHaltestelle="0" zusatzInformationen="" fahrzeugKennung="">
+                    <pfand betrag="0" waehrung="EUR"/>
+                    <metadaten sequenznummer="90188" guid="c005ef72-634e-4610-896d-3a02b40d936d"/>
+                </verkaeufe>
+                <verkaeufe zeitpunkt="2024-07-10T09:49:30.000+02:00" transaktionsnummer="39" verkaufsart="PT_VERKAUF" verkaufHaltestelle="25701731" verkaufZone="4000000110" startZone="4000000110" zielZone="0" viaZone="0" wegVariante="0" startGemeinde="0" zielGemeinde="0" verkehr="1" linie="0" linieVariante="0" richtung="1" ticketNummer="68" beginnGueltigkeit="2024-07-10T09:48:23.000+02:00" endeGueltigkeit="2024-07-11T09:49:30.000+02:00" anzahlPerson="1" sprache="0" produktkennung="IDP_GVH_4" produktbezeichnung="Tageskarte Kind" artikelnummer="9298" tarif="3" tarifBezeichnung="- - -|Tarif_3" medium="PAPIER" mediumID="0" preisstufe="100013" subvention="0" tarifstufe="" mwstSatz="0" gattung="16964" kundengruppe="0" preisstufenText="ABC" produktkennungExtern="ABC" relationsnummer="" status="0" startHaltestelle="25701731" zielHaltestelle="0" zusatzInformationen="" fahrzeugKennung="">
+                    <pfand betrag="0" waehrung="EUR"/>
+                    <metadaten sequenznummer="90189" guid="117e300d-ad9c-4169-bc3c-cb0b12bbe0e8"/>
+                </verkaeufe>
+                <verkaeufe zeitpunkt="2024-07-10T09:51:56.000+02:00" transaktionsnummer="40" verkaufsart="PT_VERKAUF" verkaufHaltestelle="25701731" verkaufZone="4000000110" startZone="4000000110" zielZone="0" viaZone="0" wegVariante="0" startGemeinde="0" zielGemeinde="0" verkehr="1" linie="0" linieVariante="0" richtung="1" ticketNummer="69" beginnGueltigkeit="2024-10-10T09:55:00.000+02:00" endeGueltigkeit="2024-11-09T23:59:59.000+01:00" anzahlPerson="1" sprache="0" produktkennung="IDP_GVH_9" produktbezeichnung="Monatskarte" artikelnummer="9305" tarif="3" tarifBezeichnung="- - -|Tarif_3" medium="PAPIER" mediumID="0" preisstufe="100012" subvention="0" tarifstufe="" mwstSatz="0" gattung="16969" kundengruppe="0" preisstufenText="AB" produktkennungExtern="" relationsnummer="" status="0" startHaltestelle="25701731" zielHaltestelle="0" zusatzInformationen="" fahrzeugKennung="">
+                    <pfand betrag="0" waehrung="EUR"/>
+                    <metadaten sequenznummer="90190" guid="c8f9d810-b409-44b3-b7b3-ecf67d48c681"/>
+                </verkaeufe>
+                <verkaeufe zeitpunkt="2024-07-10T09:52:42.000+02:00" transaktionsnummer="41" verkaufsart="PT_VERKAUF" verkaufHaltestelle="25701731" verkaufZone="4000000110" startZone="4000000110" zielZone="0" viaZone="0" wegVariante="0" startGemeinde="0" zielGemeinde="0" verkehr="1" linie="0" linieVariante="0" richtung="1" ticketNummer="70" beginnGueltigkeit="2024-10-08T09:52:10.000+02:00" endeGueltigkeit="2024-10-08T09:52:10.000+02:00" anzahlPerson="1" sprache="0" produktkennung="IDP_GVH_50" produktbezeichnung="HannoverCard tourist Einzelkarte 1 Tag" artikelnummer="1000050" tarif="3" tarifBezeichnung="- - -|Tarif_3" medium="PAPIER" mediumID="0" preisstufe="100013" subvention="0" tarifstufe="" mwstSatz="0" gattung="17010" kundengruppe="0" preisstufenText="ABC" produktkennungExtern="ABC" relationsnummer="" status="0" startHaltestelle="25701731" zielHaltestelle="0" zusatzInformationen="" fahrzeugKennung="">
+                    <pfand betrag="0" waehrung="EUR"/>
+                    <metadaten sequenznummer="90191" guid="6a445246-198e-4883-b42e-0b262eacb0e9"/>
+                </verkaeufe>
+                <quittungen zeitpunkt="2024-07-10T09:31:10.000+02:00" transaktionsnummer="36" anzahltransaktionen="1" zahlungsart="2" muenzenNotenEingegeben="" muenzenNotenZurueckgegeben="" haendlerkartennr="" geldkartenNr="" geldkartenBseq="" geldkarteSseq="" geldkarteHseq="" terminalIdGiroCard="60903534" transaktionsnummerGiroCard="1730" kartennummergirocard="######7667" terminalIdKreditkarte="60903534" transaktionsnummerKreditkarte="0" kartennummerKreditkarte="" gueltigkeitKreditkarte="6955AAEF" statusStorno="0" statusTransaktion="0">
+                    <pfandTotal betrag="0" waehrung="EUR"/>
+                    <preisTotal betrag="130" waehrung="EUR"/>
+                    <einzahlungsbetrag betrag="130" waehrung="EUR"/>
+                    <ueberzahlungsbetrag betrag="0" waehrung="EUR"/>
+                    <rueckerstattungsbetragSoll betrag="0" waehrung="EUR"/>
+                    <rueckerstattungsbetragIst betrag="0" waehrung="EUR"/>
+                    <stoerbetrag betrag="0" waehrung="EUR"/>
+                    <metadaten sequenznummer="90192" guid="7a903a1d-0926-45fd-84b4-8552db00e33b"/>
+                </quittungen>
+                <quittungen zeitpunkt="2024-07-10T09:42:19.000+02:00" transaktionsnummer="37" anzahltransaktionen="1" zahlungsart="2" muenzenNotenEingegeben="" muenzenNotenZurueckgegeben="" haendlerkartennr="" geldkartenNr="" geldkartenBseq="" geldkarteSseq="" geldkarteHseq="" terminalIdGiroCard="60903534" transaktionsnummerGiroCard="1732" kartennummergirocard="######7667" terminalIdKreditkarte="60903534" transaktionsnummerKreditkarte="0" kartennummerKreditkarte="" gueltigkeitKreditkarte="6955AAEF" statusStorno="0" statusTransaktion="0">
+                    <pfandTotal betrag="0" waehrung="EUR"/>
+                    <preisTotal betrag="1560" waehrung="EUR"/>
+                    <einzahlungsbetrag betrag="1560" waehrung="EUR"/>
+                    <ueberzahlungsbetrag betrag="0" waehrung="EUR"/>
+                    <rueckerstattungsbetragSoll betrag="0" waehrung="EUR"/>
+                    <rueckerstattungsbetragIst betrag="0" waehrung="EUR"/>
+                    <stoerbetrag betrag="0" waehrung="EUR"/>
+                    <metadaten sequenznummer="90193" guid="dcc2dbf0-8fd3-43a6-a7b1-4fbbdcf419ba"/>
+                </quittungen>
+                <quittungen zeitpunkt="2024-07-10T09:43:55.000+02:00" transaktionsnummer="38" anzahltransaktionen="2" zahlungsart="2" muenzenNotenEingegeben="" muenzenNotenZurueckgegeben="" haendlerkartennr="" geldkartenNr="" geldkartenBseq="" geldkarteSseq="" geldkarteHseq="" terminalIdGiroCard="60903534" transaktionsnummerGiroCard="1734" kartennummergirocard="######7667" terminalIdKreditkarte="60903534" transaktionsnummerKreditkarte="0" kartennummerKreditkarte="" gueltigkeitKreditkarte="6955AAEF" statusStorno="0" statusTransaktion="0">
+                    <pfandTotal betrag="0" waehrung="EUR"/>
+                    <preisTotal betrag="460" waehrung="EUR"/>
+                    <einzahlungsbetrag betrag="460" waehrung="EUR"/>
+                    <ueberzahlungsbetrag betrag="0" waehrung="EUR"/>
+                    <rueckerstattungsbetragSoll betrag="0" waehrung="EUR"/>
+                    <rueckerstattungsbetragIst betrag="0" waehrung="EUR"/>
+                    <stoerbetrag betrag="0" waehrung="EUR"/>
+                    <metadaten sequenznummer="90194" guid="726432dd-71fc-40c3-9eea-a39e549fd5a1"/>
+                </quittungen>
+                <quittungen zeitpunkt="2024-07-10T09:49:30.000+02:00" transaktionsnummer="39" anzahltransaktionen="2" zahlungsart="2" muenzenNotenEingegeben="" muenzenNotenZurueckgegeben="" haendlerkartennr="" geldkartenNr="" geldkartenBseq="" geldkarteSseq="" geldkarteHseq="" terminalIdGiroCard="60903534" transaktionsnummerGiroCard="1737" kartennummergirocard="######7667" terminalIdKreditkarte="60903534" transaktionsnummerKreditkarte="0" kartennummerKreditkarte="" gueltigkeitKreditkarte="6955AAEF" statusStorno="0" statusTransaktion="0">
+                    <pfandTotal betrag="0" waehrung="EUR"/>
+                    <preisTotal betrag="1120" waehrung="EUR"/>
+                    <einzahlungsbetrag betrag="1120" waehrung="EUR"/>
+                    <ueberzahlungsbetrag betrag="0" waehrung="EUR"/>
+                    <rueckerstattungsbetragSoll betrag="0" waehrung="EUR"/>
+                    <rueckerstattungsbetragIst betrag="0" waehrung="EUR"/>
+                    <stoerbetrag betrag="0" waehrung="EUR"/>
+                    <metadaten sequenznummer="90195" guid="08de3f71-9d1d-47d4-ba1f-df5b29e8fc8d"/>
+                </quittungen>
+                <quittungen zeitpunkt="2024-07-10T09:51:56.000+02:00" transaktionsnummer="40" anzahltransaktionen="1" zahlungsart="2" muenzenNotenEingegeben="" muenzenNotenZurueckgegeben="" haendlerkartennr="" geldkartenNr="" geldkartenBseq="" geldkarteSseq="" geldkarteHseq="" terminalIdGiroCard="60903534" transaktionsnummerGiroCard="1739" kartennummergirocard="######7667" terminalIdKreditkarte="60903534" transaktionsnummerKreditkarte="0" kartennummerKreditkarte="" gueltigkeitKreditkarte="6955AAEF" statusStorno="0" statusTransaktion="0">
+                    <pfandTotal betrag="0" waehrung="EUR"/>
+                    <preisTotal betrag="10300" waehrung="EUR"/>
+                    <einzahlungsbetrag betrag="10300" waehrung="EUR"/>
+                    <ueberzahlungsbetrag betrag="0" waehrung="EUR"/>
+                    <rueckerstattungsbetragSoll betrag="0" waehrung="EUR"/>
+                    <rueckerstattungsbetragIst betrag="0" waehrung="EUR"/>
+                    <stoerbetrag betrag="0" waehrung="EUR"/>
+                    <metadaten sequenznummer="90196" guid="a77e9793-a4a0-4f67-932b-4ed0fa91d8de"/>
+                </quittungen>
+                <quittungen zeitpunkt="2024-07-10T09:52:42.000+02:00" transaktionsnummer="41" anzahltransaktionen="1" zahlungsart="2" muenzenNotenEingegeben="" muenzenNotenZurueckgegeben="" haendlerkartennr="" geldkartenNr="" geldkartenBseq="" geldkarteSseq="" geldkarteHseq="" terminalIdGiroCard="60903534" transaktionsnummerGiroCard="1741" kartennummergirocard="######7667" terminalIdKreditkarte="60903534" transaktionsnummerKreditkarte="0" kartennummerKreditkarte="" gueltigkeitKreditkarte="6955AAEF" statusStorno="0" statusTransaktion="0">
+                    <pfandTotal betrag="0" waehrung="EUR"/>
+                    <preisTotal betrag="1000" waehrung="EUR"/>
+                    <einzahlungsbetrag betrag="1000" waehrung="EUR"/>
+                    <ueberzahlungsbetrag betrag="0" waehrung="EUR"/>
+                    <rueckerstattungsbetragSoll betrag="0" waehrung="EUR"/>
+                    <rueckerstattungsbetragIst betrag="0" waehrung="EUR"/>
+                    <stoerbetrag betrag="0" waehrung="EUR"/>
+                    <metadaten sequenznummer="90197" guid="8eb90e18-fad0-4b47-89ea-53cebb33a192"/>
+                </quittungen>
+                <produktausgaben zeitpunkt="2024-07-10T09:31:08.000+02:00" ausgabemedium="SORT_1" seriennummerPapier="060005" abschnittsnummerPapier="0002913" verwendung="1" transaktionsnummer="36" ticketNummer="63" ausgabestatus="0" ausgabeMediumTyp="PAPIER" charge="" materialcode="0" medienkennung="00600050002913" ausgabeBaugruppe="DEV_PRN_1" einbaupositionBaugruppe="1" ausgabeVorratsbehaelter="PRN_PB_1" alarm="0" medienkennungStart="00600050002913" abschnittsnummerPapierStart="0002913">
+                    <metadaten sequenznummer="90198" guid="237ddc49-119e-4aaf-a4c3-21e068b37139"/>
+                </produktausgaben>
+                <produktausgaben zeitpunkt="2024-07-10T09:42:16.000+02:00" ausgabemedium="SORT_1" seriennummerPapier="060005" abschnittsnummerPapier="0002912" verwendung="1" transaktionsnummer="37" ticketNummer="64" ausgabestatus="0" ausgabeMediumTyp="PAPIER" charge="" materialcode="0" medienkennung="00600050002912" ausgabeBaugruppe="DEV_PRN_1" einbaupositionBaugruppe="1" ausgabeVorratsbehaelter="PRN_PB_1" alarm="0" medienkennungStart="00600050002912" abschnittsnummerPapierStart="0002912">
+                    <metadaten sequenznummer="90199" guid="02a8ac04-c2a2-4d69-b2d1-8ce1bfd932cb"/>
+                </produktausgaben>
+                <produktausgaben zeitpunkt="2024-07-10T09:43:48.000+02:00" ausgabemedium="SORT_1" seriennummerPapier="060005" abschnittsnummerPapier="0002911" verwendung="1" transaktionsnummer="38" ticketNummer="65" ausgabestatus="0" ausgabeMediumTyp="PAPIER" charge="" materialcode="0" medienkennung="00600050002911" ausgabeBaugruppe="DEV_PRN_1" einbaupositionBaugruppe="1" ausgabeVorratsbehaelter="PRN_PB_1" alarm="0" medienkennungStart="00600050002911" abschnittsnummerPapierStart="0002911">
+                    <metadaten sequenznummer="90200" guid="296e0985-06d3-48b1-8a4c-131de896518b"/>
+                </produktausgaben>
+                <produktausgaben zeitpunkt="2024-07-10T09:43:52.000+02:00" ausgabemedium="SORT_1" seriennummerPapier="060005" abschnittsnummerPapier="0002910" verwendung="1" transaktionsnummer="38" ticketNummer="66" ausgabestatus="0" ausgabeMediumTyp="PAPIER" charge="" materialcode="0" medienkennung="00600050002910" ausgabeBaugruppe="DEV_PRN_1" einbaupositionBaugruppe="1" ausgabeVorratsbehaelter="PRN_PB_1" alarm="0" medienkennungStart="00600050002910" abschnittsnummerPapierStart="0002910">
+                    <metadaten sequenznummer="90201" guid="ae75977a-37ed-4d7b-a158-0eb3acbc3051"/>
+                </produktausgaben>
+                <produktausgaben zeitpunkt="2024-07-10T09:49:23.000+02:00" ausgabemedium="SORT_1" seriennummerPapier="060005" abschnittsnummerPapier="0002909" verwendung="1" transaktionsnummer="39" ticketNummer="67" ausgabestatus="0" ausgabeMediumTyp="PAPIER" charge="" materialcode="0" medienkennung="00600050002909" ausgabeBaugruppe="DEV_PRN_1" einbaupositionBaugruppe="1" ausgabeVorratsbehaelter="PRN_PB_1" alarm="0" medienkennungStart="00600050002909" abschnittsnummerPapierStart="0002909">
+                    <metadaten sequenznummer="90202" guid="2fdc7cf5-2c59-4f02-ac92-bff0a0c45cd5"/>
+                </produktausgaben>
+                <produktausgaben zeitpunkt="2024-07-10T09:49:27.000+02:00" ausgabemedium="SORT_1" seriennummerPapier="060005" abschnittsnummerPapier="0002908" verwendung="1" transaktionsnummer="39" ticketNummer="68" ausgabestatus="0" ausgabeMediumTyp="PAPIER" charge="" materialcode="0" medienkennung="00600050002908" ausgabeBaugruppe="DEV_PRN_1" einbaupositionBaugruppe="1" ausgabeVorratsbehaelter="PRN_PB_1" alarm="0" medienkennungStart="00600050002908" abschnittsnummerPapierStart="0002908">
+                    <metadaten sequenznummer="90203" guid="0181b50c-22c4-4e0f-ac14-36c6442c96ba"/>
+                </produktausgaben>
+                <produktausgaben zeitpunkt="2024-07-10T09:51:53.000+02:00" ausgabemedium="SORT_1" seriennummerPapier="060005" abschnittsnummerPapier="0002907" verwendung="1" transaktionsnummer="40" ticketNummer="69" ausgabestatus="0" ausgabeMediumTyp="PAPIER" charge="" materialcode="0" medienkennung="00600050002907" ausgabeBaugruppe="DEV_PRN_1" einbaupositionBaugruppe="1" ausgabeVorratsbehaelter="PRN_PB_1" alarm="0" medienkennungStart="00600050002907" abschnittsnummerPapierStart="0002907">
+                    <metadaten sequenznummer="90204" guid="3bc6d600-e9b4-4355-a324-7a52dae52d75"/>
+                </produktausgaben>
+                <produktausgaben zeitpunkt="2024-07-10T09:52:39.000+02:00" ausgabemedium="SORT_1" seriennummerPapier="060005" abschnittsnummerPapier="0002906" verwendung="1" transaktionsnummer="41" ticketNummer="70" ausgabestatus="0" ausgabeMediumTyp="PAPIER" charge="" materialcode="0" medienkennung="00600050002906" ausgabeBaugruppe="DEV_PRN_1" einbaupositionBaugruppe="1" ausgabeVorratsbehaelter="PRN_PB_1" alarm="0" medienkennungStart="00600050002906" abschnittsnummerPapierStart="0002906">
+                    <metadaten sequenznummer="90205" guid="379bbabd-80a4-4fce-bd3b-131106803e0e"/>
+                </produktausgaben>
+                <abrechnung abrechnungBeginn="2024-07-10T09:28:35.000+02:00" abrechnungEnde="2024-07-10T10:08:42.000+02:00" anzahlStatistiken="0">
+                    <summeWaehrung>
+                        <summeWGRStart betrag="0" waehrung="EUR"/>
+                        <summeZGSStart betrag="0" waehrung="EUR"/>
+                        <summeMEKStart betrag="0" waehrung="EUR"/>
+                        <summeBEKStart betrag="0" waehrung="EUR"/>
+                        <summeWGRZugefuehrt betrag="0" waehrung="EUR"/>
+                        <summeZGSZugefuehrt betrag="0" waehrung="EUR"/>
+                        <summeWGRAbgefuehrt betrag="0" waehrung="EUR"/>
+                        <summeZGSAbgefuehrt betrag="0" waehrung="EUR"/>
+                        <summeMEKAbgefuehrt betrag="0" waehrung="EUR"/>
+                        <summeBEKAbgefuehrt betrag="0" waehrung="EUR"/>
+                        <summeWGR betrag="0" waehrung="EUR"/>
+                        <detailsZahlungsart zahlungsart="0" anzahlkassenschnitt="0" anzahlGeldbehaelterwechsel="0">
+                            <summeEinzahlungsbetrag betrag="0" waehrung="EUR"/>
+                            <summeUeberzahlungsbetrag betrag="0" waehrung="EUR"/>
+                            <summeRueckerstattungsbetrag betrag="0" waehrung="EUR"/>
+                            <summeStoerbetrag betrag="0" waehrung="EUR"/>
+                        </detailsZahlungsart>
+                        <detailsZahlungsart zahlungsart="1" anzahlkassenschnitt="0" anzahlGeldbehaelterwechsel="0">
+                            <summeEinzahlungsbetrag betrag="0" waehrung="EUR"/>
+                            <summeUeberzahlungsbetrag betrag="0" waehrung="EUR"/>
+                            <summeRueckerstattungsbetrag betrag="0" waehrung="EUR"/>
+                            <summeStoerbetrag betrag="0" waehrung="EUR"/>
+                        </detailsZahlungsart>
+                        <detailsZahlungsart zahlungsart="2" anzahlkassenschnitt="1" anzahlGeldbehaelterwechsel="1">
+                            <summeEinzahlungsbetrag betrag="14570" waehrung="EUR"/>
+                            <summeUeberzahlungsbetrag betrag="0" waehrung="EUR"/>
+                            <summeRueckerstattungsbetrag betrag="0" waehrung="EUR"/>
+                            <summeStoerbetrag betrag="0" waehrung="EUR"/>
+                        </detailsZahlungsart>
+                        <detailsZahlungsart zahlungsart="3" anzahlkassenschnitt="0" anzahlGeldbehaelterwechsel="0">
+                            <summeEinzahlungsbetrag betrag="0" waehrung="EUR"/>
+                            <summeUeberzahlungsbetrag betrag="0" waehrung="EUR"/>
+                            <summeRueckerstattungsbetrag betrag="0" waehrung="EUR"/>
+                            <summeStoerbetrag betrag="0" waehrung="EUR"/>
+                        </detailsZahlungsart>
+                        <summeZGS betrag="0" waehrung="EUR"/>
+                        <summeMEK betrag="0" waehrung="EUR"/>
+                        <summeBEK betrag="0" waehrung="EUR"/>
+                    </summeWaehrung>
+                    <metadaten sequenznummer="90206" guid="4c8aac48-9569-4415-94d2-90640e6ecb00"/>
+                </abrechnung>
+                <verkaufsstatistik erstellungszeitpunkt="2024-07-10T10:08:42.000+02:00">
+                    <produktdetails verkaufsart="PT_VERKAUF" produktkennung="IDP_GVH_2" artikelnummer="9297" tarif="3" tarifbezeichnung="- - -|Tarif_3" medium="PAPIER" preisstufe="34465" kundengruppe="0" zahlungsart="2" anzahlProdukte="1" tickettyp="0">
+                        <einzelPfand betrag="0" waehrung="EUR"/>
+                        <einzelpreis betrag="130" waehrung="EUR"/>
+                        <pfandTotal betrag="0" waehrung="EUR"/>
+                        <preisTotal betrag="130" waehrung="EUR"/>
+                        <ladebetragTotal betrag="0" waehrung="EUR"/>
+                        <metadaten sequenznummer="90207" guid="00ac8fa7-16a9-4a4f-a3d0-c74b14975c8a"/>
+                    </produktdetails>
+                    <produktdetails verkaufsart="PT_VERKAUF" produktkennung="IDP_GVH_3" artikelnummer="9299" tarif="3" tarifbezeichnung="- - -|Tarif_3" medium="PAPIER" preisstufe="34476" kundengruppe="0" zahlungsart="2" anzahlProdukte="1" tickettyp="0">
+                        <einzelPfand betrag="0" waehrung="EUR"/>
+                        <einzelpreis betrag="860" waehrung="EUR"/>
+                        <pfandTotal betrag="0" waehrung="EUR"/>
+                        <preisTotal betrag="860" waehrung="EUR"/>
+                        <ladebetragTotal betrag="0" waehrung="EUR"/>
+                        <metadaten sequenznummer="90208" guid="b32cdc16-2ce1-4dda-966d-8c88ce4a2125"/>
+                    </produktdetails>
+                    <produktdetails verkaufsart="PT_VERKAUF" produktkennung="IDP_GVH_4" artikelnummer="9298" tarif="3" tarifbezeichnung="- - -|Tarif_3" medium="PAPIER" preisstufe="34477" kundengruppe="0" zahlungsart="2" anzahlProdukte="1" tickettyp="0">
+                        <einzelPfand betrag="0" waehrung="EUR"/>
+                        <einzelpreis betrag="260" waehrung="EUR"/>
+                        <pfandTotal betrag="0" waehrung="EUR"/>
+                        <preisTotal betrag="260" waehrung="EUR"/>
+                        <ladebetragTotal betrag="0" waehrung="EUR"/>
+                        <metadaten sequenznummer="90209" guid="b27a5109-d9d8-44ca-8024-f110686b4dd9"/>
+                    </produktdetails>
+                    <produktdetails verkaufsart="PT_VERKAUF" produktkennung="IDP_GVH_5" artikelnummer="9302" tarif="3" tarifbezeichnung="- - -|Tarif_3" medium="PAPIER" preisstufe="34465" kundengruppe="0" zahlungsart="2" anzahlProdukte="1" tickettyp="0">
+                        <einzelPfand betrag="0" waehrung="EUR"/>
+                        <einzelpreis betrag="330" waehrung="EUR"/>
+                        <pfandTotal betrag="0" waehrung="EUR"/>
+                        <preisTotal betrag="330" waehrung="EUR"/>
+                        <ladebetragTotal betrag="0" waehrung="EUR"/>
+                        <metadaten sequenznummer="90210" guid="e4a0597d-86bb-4067-9317-e53f14486ce3"/>
+                    </produktdetails>
+                    <produktdetails verkaufsart="PT_VERKAUF" produktkennung="IDP_GVH_6" artikelnummer="9301" tarif="3" tarifbezeichnung="- - -|Tarif_3" medium="PAPIER" preisstufe="34477" kundengruppe="0" zahlungsart="2" anzahlProdukte="1" tickettyp="0">
+                        <einzelPfand betrag="0" waehrung="EUR"/>
+                        <einzelpreis betrag="130" waehrung="EUR"/>
+                        <pfandTotal betrag="0" waehrung="EUR"/>
+                        <preisTotal betrag="130" waehrung="EUR"/>
+                        <ladebetragTotal betrag="0" waehrung="EUR"/>
+                        <metadaten sequenznummer="90211" guid="482706e6-858b-4611-834e-8031ea9b811e"/>
+                    </produktdetails>
+                    <produktdetails verkaufsart="PT_VERKAUF" produktkennung="IDP_GVH_7" artikelnummer="9303" tarif="3" tarifbezeichnung="- - -|Tarif_3" medium="PAPIER" preisstufe="34476" kundengruppe="0" zahlungsart="2" anzahlProdukte="1" tickettyp="0">
+                        <einzelPfand betrag="0" waehrung="EUR"/>
+                        <einzelpreis betrag="1560" waehrung="EUR"/>
+                        <pfandTotal betrag="0" waehrung="EUR"/>
+                        <preisTotal betrag="1560" waehrung="EUR"/>
+                        <ladebetragTotal betrag="0" waehrung="EUR"/>
+                        <metadaten sequenznummer="90212" guid="15d0ad76-8abe-415d-a15a-3683ea7f3340"/>
+                    </produktdetails>
+                    <produktdetails verkaufsart="PT_VERKAUF" produktkennung="IDP_GVH_9" artikelnummer="9305" tarif="3" tarifbezeichnung="- - -|Tarif_3" medium="PAPIER" preisstufe="34476" kundengruppe="0" zahlungsart="2" anzahlProdukte="1" tickettyp="0">
+                        <einzelPfand betrag="0" waehrung="EUR"/>
+                        <einzelpreis betrag="10300" waehrung="EUR"/>
+                        <pfandTotal betrag="0" waehrung="EUR"/>
+                        <preisTotal betrag="10300" waehrung="EUR"/>
+                        <ladebetragTotal betrag="0" waehrung="EUR"/>
+                        <metadaten sequenznummer="90213" guid="16000b8a-2aa6-4dc2-8277-25fa79408ff3"/>
+                    </produktdetails>
+                    <produktdetails verkaufsart="PT_VERKAUF" produktkennung="IDP_GVH_50" artikelnummer="1000050" tarif="3" tarifbezeichnung="- - -|Tarif_3" medium="PAPIER" preisstufe="34477" kundengruppe="0" zahlungsart="2" anzahlProdukte="1" tickettyp="0">
+                        <einzelPfand betrag="0" waehrung="EUR"/>
+                        <einzelpreis betrag="1000" waehrung="EUR"/>
+                        <pfandTotal betrag="0" waehrung="EUR"/>
+                        <preisTotal betrag="1000" waehrung="EUR"/>
+                        <ladebetragTotal betrag="0" waehrung="EUR"/>
+                        <metadaten sequenznummer="90214" guid="0a9f9acd-52eb-4199-b98a-710174e6471b"/>
+                    </produktdetails>
+                </verkaufsstatistik>
+                <wartung zeitpunkt="2024-07-10T09:29:08.000+02:00" servicetechniker="5555" funktionscode="10" funktionsbezeichnung="Automatenstatus" ausfuehrungsstatus="0" tuerstatus="OFFEN">
+                    <metadaten sequenznummer="90215" guid="a56be700-6501-4dac-97e4-96afd59bd8d0"/>
+                </wartung>
+                <wartung zeitpunkt="2024-07-10T09:29:43.000+02:00" servicetechniker="5555" funktionscode="0" funktionsbezeichnung="Identifikation" ausfuehrungsstatus="0" tuerstatus="OFFEN">
+                    <metadaten sequenznummer="90216" guid="bbc2bc85-f2ed-4a70-addd-b45d3fb2c96e"/>
+                </wartung>
+                <wartung zeitpunkt="2024-07-10T09:47:02.000+02:00" servicetechniker="5555" funktionscode="10" funktionsbezeichnung="Automatenstatus" ausfuehrungsstatus="0" tuerstatus="OFFEN">
+                    <metadaten sequenznummer="90217" guid="ce106e0c-2231-4ee2-a4c8-d133ae58fd69"/>
+                </wartung>
+                <wartung zeitpunkt="2024-07-10T09:47:40.000+02:00" servicetechniker="5555" funktionscode="0" funktionsbezeichnung="Identifikation" ausfuehrungsstatus="4294967295" tuerstatus="GESCHLOSSEN">
+                    <metadaten sequenznummer="90218" guid="ea118d5f-9ef9-436b-8723-28b5c9dd667a"/>
+                </wartung>
+            </faaSchichtreport>
+        </empfangeSchichtreport>
+    </s:Body>
+</s:Envelope>

@@ -1,0 +1,70 @@
+################################################################################
+#####   Generator -> Aktualisierungmeldung 
+################################################################################
+Started: 2024-08-07 08:17:00
+
+###############################################
+Arguments:
+###############################################
+ projektname                   : TEST
+ TESTFALLNAME                  : in_Betrieb2
+ mainpath                      : C:\_Daten\Projekte\MELDUNGEN\
+ MELDUNGSNAME                  : Aktualisierungmeldung
+ testfallname                  : in_Betrieb2
+ meldungsname                  : Aktualisierungmeldung
+ PROJEKTNAME                   : TEST
+ MAINPATH                      : C:\_Daten\Projekte\MELDUNGEN\
+###############################################
+
+
+###############################################
+Eingangsdaten:
+###############################################
+
+AktualisierungMeldung:sstVersion = 3.10
+AktualisierungMeldung:versionKey = -1
+AktualisierungMeldung:zeitpunkt = ${__datetime("2024080706","yyyyMMddhh",)}
+AktualisierungMeldung:aktualisierungstyp = STATUS
+AktualisierungMeldung:status = 2
+------------------------------------------
+automatenStatus_1:betriebStatus = IN_BETRIEB
+automatenStatus_1:letzteInteraktion = ${__datetime("07.08.2024 03:30","dd.MM.yyyy hh:mm",)}
+automatenStatus_1:letzterVerkauf = ${__datetime("07-08-2024 03:15:53","dd-MM-yyyy hh:mm:ss",)}
+------------------------------------------
+GLOBAL:PROJEKTNAME = TEST
+GLOBAL:DATABASE = C:\_Daten\Projekte\MELDUNGEN\/CONFIG\TEST\database.ini
+GLOBAL:AUTOMAT = 9091
+GLOBAL:URLHGS = https://uestra.dev.ti-ica.de/dplus/services/automatenService/3_10/?wsdl
+GLOBAL:VERSION = 3.10
+GLOBAL:TRANSFERFILE = C:\_Daten\Projekte\MELDUNGEN\/CONFIG/TRANSFER/transfer_TEST.ini
+------------------------------------------
+
+###############################################
+
+###############################################
+Message:
+###############################################
+<s:Envelope xmlns:s="http://schemas.xmlsoap.org/soap/envelope/">
+    <s:Body xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+        <empfangeAktualisierungmeldung xmlns="http://tms.ica.de/automatenService/wsdl/3_10/">
+            <faaAktualisierungmeldung xmlns="http://tms.ica.de/automatenService/3_10/" zeitpunkt="2024-08-07T06:00:00.000+02:00" aktualisierungstyp="STATUS" status="2" sstVersion="3.10">
+                <verkaufspunkt posNummer="9091" betreiber="99" seriennummer="9091" ipAdresse="0.0.0.0"/>
+                <metadaten sequenznummer="90347" guid="8cd88ef8-8de6-4902-ac37-62dfc9668010"/>
+                <automatenStatus betriebStatus="IN_BETRIEB" letzteInteraktion="2024-08-07T03:30:00.000+02:00" letzterVerkauf="2024-08-07T03:15:53.000+02:00"/>
+            </faaAktualisierungmeldung>
+        </empfangeAktualisierungmeldung>
+    </s:Body>
+</s:Envelope>
+
+
+###############################################
+###############################################
+Result:
+###############################################
+OK
+
+###############################################
+################################################################################
+
+Finished: 2024-08-07 08:17:02
+
