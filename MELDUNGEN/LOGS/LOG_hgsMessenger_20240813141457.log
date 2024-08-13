@@ -1,0 +1,90 @@
+################################################################################
+#####   Generator -> Sequenznummernbericht 
+################################################################################
+Started: 2024-08-13 14:14:57
+
+###############################################
+Arguments:
+###############################################
+ projektname                   : RANOREX
+ TESTFALLNAME                  : drei
+ mainpath                      : C:\_Daten\HGS_Meldungen\MELDUNGEN
+ MELDUNGSNAME                  : Sequenznummernbericht
+ testfallname                  : drei
+ meldungsname                  : Sequenznummernbericht
+ PROJEKTNAME                   : RANOREX
+ MAINPATH                      : C:\_Daten\HGS_Meldungen\MELDUNGEN
+###############################################
+
+
+###############################################
+Eingangsdaten:
+###############################################
+
+VorgangsMeldungen:sstVersion = 3.10
+VorgangsMeldungen:versionKey = -1
+VorgangsMeldungen:ersteSequenz = 
+VorgangsMeldungen:letzteSequenz = 
+------------------------------------------
+vorgang_1:beschreibung = Status:Betriebsbereit Verkauf:10.07.2024 14:24:01 Bedienung:10.07.2024 15:35:48
+vorgang_1:kategorie = TypHealthMeldung
+vorgang_1:servicetechniker = 0
+vorgang_1:zeitpunkt = 
+------------------------------------------
+vorgang_2:beschreibung = Status:Betriebsbereit Verkauf:10.07.2024 14:24:01 Bedienung:10.07.2024 15:35:48
+vorgang_2:kategorie = TypHealthMeldung
+vorgang_2:servicetechniker = 0
+vorgang_2:zeitpunkt = 
+------------------------------------------
+vorgang_3:beschreibung = Status:Betriebsbereit Verkauf:10.07.2024 14:24:01 Bedienung:10.07.2024 15:35:48
+vorgang_3:kategorie = TypHealthMeldung
+vorgang_3:servicetechniker = 0
+vorgang_3:zeitpunkt = 
+------------------------------------------
+GLOBAL:PROJEKTNAME = RANOREX
+GLOBAL:DATABASE = C:\_Daten\HGS_Meldungen\MELDUNGEN/CONFIG\RANOREX\database.ini
+GLOBAL:AUTOMAT = 999000
+GLOBAL:URLHGS = https://uestra.dev.ti-ica.de/dplus/services/automatenService/3_10/?wsdl
+GLOBAL:VERSION = 3.10
+GLOBAL:TRANSFERFILE = C:\_Daten\HGS_Meldungen\MELDUNGEN/CONFIG/TRANSFER/transfer_RANOREX.ini
+------------------------------------------
+
+###############################################
+
+###############################################
+Message:
+###############################################
+<s:Envelope xmlns:s="http://schemas.xmlsoap.org/soap/envelope/">
+    <s:Body xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+        <empfangeSequenznummernbericht xmlns="http://tms.ica.de/automatenService/wsdl/3_10/">
+            <faaVorgangsmeldungen xmlns="http://tms.ica.de/automatenService/3_10/" sstVersion="3.10">
+                <verkaufspunkt posNummer="999000" betreiber="99" seriennummer="999000" ipAdresse="0.0.0.0"/>
+                <versionKey>-1</versionKey>
+                <ersteSequenz>10022</ersteSequenz>
+                <letzteSequenz>10024</letzteSequenz>
+                <vorgaenge servicetechniker="0" zeitpunkt="2024-08-13T14:14:57.456+02:00" kategorie="TypHealthMeldung" beschreibung="Status:Betriebsbereit Verkauf:10.07.2024 14:24:01 Bedienung:10.07.2024 15:35:48">
+                    <metadaten sequenznummer="10022" guid="47020000-ff2f-43b2-9f4b-7e175dfcf396"/>
+                </vorgaenge>
+                <vorgaenge servicetechniker="0" zeitpunkt="2024-08-13T14:14:57.700+02:00" kategorie="TypHealthMeldung" beschreibung="Status:Betriebsbereit Verkauf:10.07.2024 14:24:01 Bedienung:10.07.2024 15:35:48">
+                    <metadaten sequenznummer="10023" guid="b52ba0cd-40e0-4dc8-8774-dec8e52ef36c"/>
+                </vorgaenge>
+                <vorgaenge servicetechniker="0" zeitpunkt="2024-08-13T14:14:57.702+02:00" kategorie="TypHealthMeldung" beschreibung="Status:Betriebsbereit Verkauf:10.07.2024 14:24:01 Bedienung:10.07.2024 15:35:48">
+                    <metadaten sequenznummer="10024" guid="3c64ad86-6eb4-4c64-bbab-7eabcb09f2ca"/>
+                </vorgaenge>
+            </faaVorgangsmeldungen>
+        </empfangeSequenznummernbericht>
+    </s:Body>
+</s:Envelope>
+
+
+###############################################
+###############################################
+Result:
+###############################################
+OK
+
+###############################################
+################################################################################
+
+Finished: 2024-08-13 14:15:10
+

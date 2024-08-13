@@ -1,8 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Transfervariablen>
     <automatenNr>999000</automatenNr>
-    <auftragsNr />
-    <sequenceNr>10021</sequenceNr>
-    <ersteSequenz>10019</ersteSequenz>
-    <letzteSequenz>10021</letzteSequenz>
+    <auftragsNr>10500</auftragsNr>
+    <sequenceNr>10022</sequenceNr>
+    <automatenStatus_1.letzteInteraktion>2024-08-13T14:32:28.239+02:00</automatenStatus_1.letzteInteraktion>
+    <sstVersion>3.10</sstVersion>
+    <automatenStatus_1.letzterVerkauf>2024-08-13T14:32:28.239+02:00</automatenStatus_1.letzterVerkauf>
+    <zeitpunkt>2024-08-13T14:32:27.969+02:00</zeitpunkt>
 </Transfervariablen>
