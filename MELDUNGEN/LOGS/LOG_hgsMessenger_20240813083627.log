@@ -1,0 +1,70 @@
+################################################################################
+#####   Generator -> Aktualisierungmeldung 
+################################################################################
+Started: 2024-08-13 08:36:27
+
+###############################################
+Arguments:
+###############################################
+ projektname                   : RANOREX
+ TESTFALLNAME                  : in_BetriebTrans
+ mainpath                      : C:\_Daten\HGS_Meldungen\MELDUNGEN
+ MELDUNGSNAME                  : Aktualisierungmeldung
+ testfallname                  : in_BetriebTrans
+ meldungsname                  : Aktualisierungmeldung
+ PROJEKTNAME                   : RANOREX
+ MAINPATH                      : C:\_Daten\HGS_Meldungen\MELDUNGEN
+###############################################
+
+
+###############################################
+Eingangsdaten:
+###############################################
+
+AktualisierungMeldung:versionKey = -1
+AktualisierungMeldung:aktualisierungstyp = STATUS
+AktualisierungMeldung:status = 2
+AktualisierungMeldung:sstVersion = 3.10
+AktualisierungMeldung:zeitpunkt = 
+------------------------------------------
+automatenStatus_1:betriebStatus = IN_BETRIEB
+automatenStatus_1:letzteInteraktion = 
+automatenStatus_1:letzterVerkauf = 
+------------------------------------------
+GLOBAL:PROJEKTNAME = RANOREX
+GLOBAL:DATABASE = C:\_Daten\HGS_Meldungen\MELDUNGEN/CONFIG\RANOREX\database.ini
+GLOBAL:AUTOMAT = 999000
+GLOBAL:URLHGS = https://uestra.dev.ti-ica.de/dplus/services/automatenService/3_10/?wsdl
+GLOBAL:VERSION = 3.10
+GLOBAL:TRANSFERFILE = C:\_Daten\HGS_Meldungen\MELDUNGEN/CONFIG/TRANSFER/transfer_RANOREX.ini
+------------------------------------------
+
+###############################################
+
+###############################################
+Message:
+###############################################
+<s:Envelope xmlns:s="http://schemas.xmlsoap.org/soap/envelope/">
+    <s:Body xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+        <empfangeAktualisierungmeldung xmlns="http://tms.ica.de/automatenService/wsdl/3_10/">
+            <faaAktualisierungmeldung xmlns="http://tms.ica.de/automatenService/3_10/" zeitpunkt="2024-08-13T08:36:27.554+02:00" aktualisierungstyp="STATUS" status="2" sstVersion="3.10">
+                <verkaufspunkt posNummer="999000" betreiber="99" seriennummer="999000" ipAdresse="0.0.0.0"/>
+                <metadaten sequenznummer="10008" guid="be0a864e-4489-42a7-acbd-8f9292374481"/>
+                <automatenStatus betriebStatus="IN_BETRIEB" letzteInteraktion="2024-08-13T08:36:27.826+02:00" letzterVerkauf="2024-08-13T08:36:27.826+02:00"/>
+            </faaAktualisierungmeldung>
+        </empfangeAktualisierungmeldung>
+    </s:Body>
+</s:Envelope>
+
+
+###############################################
+###############################################
+Result:
+###############################################
+OK
+
+###############################################
+################################################################################
+
+Finished: 2024-08-13 08:36:29
+

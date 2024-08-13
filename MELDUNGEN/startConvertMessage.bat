@@ -6,9 +6,9 @@ cls
 
 rem Hier muss der Type eingegebene werden
 set MYTYPE=%1%
+set path_self=%~dp0
 
-
-set MYMAIN=C:\_Daten\Projekte\MELDUNGEN\TEMPLATES\IN\
+set MYMAIN=%path_self%\TEMPLATES\IN\
 set MYDIR=%MYMAIN%\%MYTYPE%
 set EXPORT=%MYMAIN%\..\OUT\%MYTYPE%
 
