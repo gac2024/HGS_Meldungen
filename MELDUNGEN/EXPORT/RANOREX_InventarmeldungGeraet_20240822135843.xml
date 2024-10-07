@@ -1,0 +1,10 @@
+<s:Envelope xmlns:s="http://schemas.xmlsoap.org/soap/envelope/">
+    <s:Body xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+        <empfangeInventarmeldungGeraet xmlns="http://tms.ica.de/automatenService/wsdl/3_10/">
+            <faaInventarmeldungGeraet xmlns="http://tms.ica.de/automatenService/3_10/" zeitpunkt="2024-08-22T13:58:42.732+02:00" vorgangstyp="ENTNAHME" servicetechniker="0" geraetestatus="AUSSER_BETRIEB" sstVersion="3.10">
+                <verkaufspunkt posNummer="999000" betreiber="99" seriennummer="999000" ipAdresse="0.0.0.0"/>
+                <metadaten sequenznummer="10025" guid="02e7a42a-d70e-4492-b9c6-eb742b80c9f1"/>
+            </faaInventarmeldungGeraet>
+        </empfangeInventarmeldungGeraet>
+    </s:Body>
+</s:Envelope>

@@ -1,0 +1,21 @@
+<s:Envelope xmlns:s="http://schemas.xmlsoap.org/soap/envelope/">
+    <s:Body xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+        <empfangeSequenznummernbericht xmlns="http://tms.ica.de/automatenService/wsdl/3_10/">
+            <faaVorgangsmeldungen xmlns="http://tms.ica.de/automatenService/3_10/" sstVersion="3.10">
+                <verkaufspunkt posNummer="999000" betreiber="99" seriennummer="999000" ipAdresse="0.0.0.0"/>
+                <versionKey>-1</versionKey>
+                <ersteSequenz>10667</ersteSequenz>
+                <letzteSequenz>10669</letzteSequenz>
+                <vorgaenge servicetechniker="0" zeitpunkt="2024-09-04T13:56:56.047+02:00" kategorie="TypHealthMeldung" beschreibung="Status:Betriebsbereit A Verkauf:10.07.2024 14:24:01 Bedienung:10.07.2024 15:35:48">
+                    <metadaten sequenznummer="10667" guid="a0ba2bd8-f2e0-467c-9501-ba8154218526"/>
+                </vorgaenge>
+                <vorgaenge servicetechniker="0" zeitpunkt="2024-09-04T13:56:56.319+02:00" kategorie="TypHealthMeldung" beschreibung="Status:Betriebsbereit B Verkauf:10.07.2024 14:24:01 Bedienung:10.07.2024 15:35:48">
+                    <metadaten sequenznummer="10668" guid="ea99ce4e-85af-499d-a345-70fcd11a14d9"/>
+                </vorgaenge>
+                <vorgaenge servicetechniker="0" zeitpunkt="2024-09-04T13:56:56.320+02:00" kategorie="TypHealthMeldung" beschreibung="Status:Betriebsbereit C Verkauf:10.07.2024 14:24:01 Bedienung:10.07.2024 15:35:48">
+                    <metadaten sequenznummer="10669" guid="7aba842c-fde5-4076-91a0-64395e6b6389"/>
+                </vorgaenge>
+            </faaVorgangsmeldungen>
+        </empfangeSequenznummernbericht>
+    </s:Body>
+</s:Envelope>

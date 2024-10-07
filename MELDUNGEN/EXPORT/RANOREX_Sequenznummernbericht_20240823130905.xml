@@ -1,0 +1,10 @@
+<s:Envelope xmlns:s="http://schemas.xmlsoap.org/soap/envelope/">
+    <s:Body xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+        <empfangeSequenznummernbericht xmlns="http://tms.ica.de/automatenService/wsdl/3_10/">
+            <faaVorgangsmeldungen xmlns="http://tms.ica.de/automatenService/3_10/" sstVersion="3.10">
+                <verkaufspunkt posNummer="999000" betreiber="99" seriennummer="999000" ipAdresse="0.0.0.0"/>
+                <versionKey>-1</versionKey>
+            </faaVorgangsmeldungen>
+        </empfangeSequenznummernbericht>
+    </s:Body>
+</s:Envelope>

@@ -1,0 +1,62 @@
+################################################################################
+#####   Generator -> Papierlogistikmeldung 
+################################################################################
+Started: 2024-08-28 10:12:29
+
+###############################################
+Arguments:
+###############################################
+ projektname                   : RANOREX
+ TESTFALLNAME                  : PLM_installieren_statikSerienNr
+ mainpath                      : C:\_Daten\HGS_Meldungen\MELDUNGEN
+ MELDUNGSNAME                  : Papierlogistikmeldung
+ testfallname                  : PLM_installieren_statikSerienNr
+ meldungsname                  : Papierlogistikmeldung
+ PROJEKTNAME                   : RANOREX
+ MAINPATH                      : C:\_Daten\HGS_Meldungen\MELDUNGEN
+###############################################
+
+
+###############################################
+Eingangsdaten:
+###############################################
+
+Testdaten:papierbahn = PRN_PB_2
+Testdaten:status = Installation
+Testdaten:papiersorte = 0
+Testdaten:barcode = 
+Testdaten:seriennummerPapier = 108155
+Testdaten:verbleibendeabschnitte = 1601
+Testdaten:aktuellerabschnitt = 1601
+------------------------------------------
+Papierlogistikmeldung:abschnittsnummerPapier = 0001601
+Papierlogistikmeldung:ausgabemediumTyp = SORT_1
+Papierlogistikmeldung:charge = 
+Papierlogistikmeldung:druckerKennung = DEV_PRN_3
+Papierlogistikmeldung:einbauposition = 0
+Papierlogistikmeldung:medienkennung = 
+Papierlogistikmeldung:papierkanalDrucker = -1
+Papierlogistikmeldung:papierkanalKennung = PRN_PB_2
+Papierlogistikmeldung:papierlogistiker = 0
+Papierlogistikmeldung:seriennummerDrucker = 30057500E020340
+Papierlogistikmeldung:seriennummerPapier = 108155
+Papierlogistikmeldung:sstVersion = 3.10
+Papierlogistikmeldung:vorgangsnummer = 0
+Papierlogistikmeldung:vorgangstyp = INSTALLATION
+Papierlogistikmeldung:zeitpunkt = 
+Papierlogistikmeldung:abrechnungsnummer = 
+------------------------------------------
+papiersorte_1:abschnitteGesamt = 5560
+papiersorte_1:materialcode = 0
+papiersorte_1:nummernfolge = ABSTEIGEND
+------------------------------------------
+GLOBAL:PROJEKTNAME = RANOREX
+GLOBAL:DATABASE = C:\_Daten\HGS_Meldungen\MELDUNGEN/CONFIG\RANOREX\database.ini
+GLOBAL:AUTOMAT = 999000
+GLOBAL:URLHGS = https://uestra.dev.ti-ica.de/dplus/services/automatenService/3_10/?wsdl
+GLOBAL:VERSION = 3.10
+GLOBAL:TRANSFERFILE = C:\_Daten\HGS_Meldungen\MELDUNGEN/CONFIG/TRANSFER/transfer_RANOREX.ini
+------------------------------------------
+
+###############################################
+

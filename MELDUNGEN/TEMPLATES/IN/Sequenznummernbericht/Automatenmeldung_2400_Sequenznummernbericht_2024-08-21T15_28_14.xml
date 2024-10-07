@@ -1,0 +1,138 @@
+<s:Envelope xmlns:s="http://schemas.xmlsoap.org/soap/envelope/">
+    <s:Body xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+        <empfangeSequenznummernbericht xmlns="http://tms.ica.de/automatenService/wsdl/3_10/">
+            <faaVorgangsmeldungen xmlns="http://tms.ica.de/automatenService/3_10/" sstVersion="3.10">
+                <verkaufspunkt betreiber="99" ipAdresse="" posNummer="2400" seriennummer="2400"/>
+                <versionKey>-1</versionKey>
+                <ersteSequenz>4688</ersteSequenz>
+                <letzteSequenz>4729</letzteSequenz>
+                <vorgaenge beschreibung="DLC-Quittung      DLC Name:H2400141.DLC Inst:21/08/2024 17:27:29 Kat:SOFTWARE Ver: Status:0" kategorie="TypAktualMeldung" servicetechniker="0" zeitpunkt="2024-08-21T17:27:29+02:00">
+                    <metadaten guid="0dae413b-ab12-4a8e-a8d5-eefc512f0d6a" sequenznummer="4688"/>
+                </vorgaenge>
+                <vorgaenge beschreibung="Dateiaktivierung  Dateiname:00000144.CMS Inst:21/08/2024 17:27:31 Kat:SOFTWARE Ver: Status:0" kategorie="TypAktualMeldung" servicetechniker="0" zeitpunkt="2024-08-21T17:27:31+02:00">
+                    <metadaten guid="052e1839-c16f-4d00-a3f9-4ca679a56e7b" sequenznummer="4689"/>
+                </vorgaenge>
+                <vorgaenge beschreibung="E 10019 | CEMAS-Kommando | Abrechnung EinbPos:0" kategorie="TypInfo3" servicetechniker="0" zeitpunkt="2024-08-21T17:27:32+02:00">
+                    <metadaten guid="9b6df2fe-0862-4863-8d9d-798921fb7bea" sequenznummer="4690"/>
+                </vorgaenge>
+                <vorgaenge beschreibung="INFORMATION: PRN_PB_1 AbrNr:39 MedTyp:PAPER MatCode:0 MedNr:0005333 MedGr:018836 Füllstand:5333" kategorie="TypMaterialFluss2" servicetechniker="0" zeitpunkt="2024-08-21T17:27:38+02:00">
+                    <metadaten guid="5ac4a12a-449d-4c34-b414-3983ff77b39e" sequenznummer="4691"/>
+                </vorgaenge>
+                <vorgaenge beschreibung="INFORMATION: PRN_PB_2 AbrNr:39 MedTyp:PAPER MatCode:0 MedNr:0006368 MedGr:018837 Füllstand:6368" kategorie="TypMaterialFluss2" servicetechniker="0" zeitpunkt="2024-08-21T17:27:39+02:00">
+                    <metadaten guid="18b5e7fa-8c12-4a54-9d96-5776dae33d57" sequenznummer="4692"/>
+                </vorgaenge>
+                <vorgaenge beschreibung="WGR 1 47211168 0,00 EUR Abr.39 WZ 0 eingesetzt:21/08/2024 17:27:39 Flag:1" kategorie="TypGeldSpeicherInhalt" servicetechniker="0" zeitpunkt="2024-08-21T17:27:39+02:00">
+                    <metadaten guid="3dd64d2b-2e57-4fd5-9ccc-e1ab94474e7c" sequenznummer="4693"/>
+                </vorgaenge>
+                <vorgaenge beschreibung="INST Typ:MUV Herstllr:China Tech Model:WGR 0,2€ SerNr:47211168 InvntrNr:0 HrdwrVer: Ver:" kategorie="TypGeraet2" servicetechniker="0" zeitpunkt="2024-08-21T17:27:39+02:00">
+                    <metadaten guid="6829e35a-dd4d-4c4c-b41e-e9e48a89fa15" sequenznummer="4694"/>
+                </vorgaenge>
+                <vorgaenge beschreibung="WGR 2 44211138 0,00 EUR Abr.39 WZ 0 eingesetzt:21/08/2024 17:27:40 Flag:1" kategorie="TypGeldSpeicherInhalt" servicetechniker="0" zeitpunkt="2024-08-21T17:27:40+02:00">
+                    <metadaten guid="9833d471-aa46-4634-81d0-809a9b4aeb4f" sequenznummer="4695"/>
+                </vorgaenge>
+                <vorgaenge beschreibung="INST Typ:MUV Herstllr:China Tech Model:WGR 0,05€ SerNr:44211138 InvntrNr:1 HrdwrVer: Ver:" kategorie="TypGeraet2" servicetechniker="0" zeitpunkt="2024-08-21T17:27:40+02:00">
+                    <metadaten guid="635b6e5e-27c9-4dfb-acf0-024311ba0375" sequenznummer="4696"/>
+                </vorgaenge>
+                <vorgaenge beschreibung="WGR 3 42211167 0,00 EUR Abr.39 WZ 0 eingesetzt:21/08/2024 17:27:40 Flag:1" kategorie="TypGeldSpeicherInhalt" servicetechniker="0" zeitpunkt="2024-08-21T17:27:41+02:00">
+                    <metadaten guid="86440dee-3949-4f7d-8b14-06c3f67b673e" sequenznummer="4697"/>
+                </vorgaenge>
+                <vorgaenge beschreibung="INST Typ:MUV Herstllr:China Tech Model:WGR 0,5€ SerNr:42211167 InvntrNr:2 HrdwrVer: Ver:" kategorie="TypGeraet2" servicetechniker="0" zeitpunkt="2024-08-21T17:27:41+02:00">
+                    <metadaten guid="2675785b-db87-45f8-9ee2-934ad2cdcdae" sequenznummer="4698"/>
+                </vorgaenge>
+                <vorgaenge beschreibung="WGR 4 43211148 0,00 EUR Abr.39 WZ 0 eingesetzt:21/08/2024 17:27:41 Flag:1" kategorie="TypGeldSpeicherInhalt" servicetechniker="0" zeitpunkt="2024-08-21T17:27:41+02:00">
+                    <metadaten guid="6c6edc66-a8e7-4ae4-b9e4-4371d2c4d42a" sequenznummer="4699"/>
+                </vorgaenge>
+                <vorgaenge beschreibung="INST Typ:MUV Herstllr:China Tech Model:WGR 0,1€ SerNr:43211148 InvntrNr:3 HrdwrVer: Ver:" kategorie="TypGeraet2" servicetechniker="0" zeitpunkt="2024-08-21T17:27:41+02:00">
+                    <metadaten guid="4c95fd07-629c-486d-8170-689fb80a32bf" sequenznummer="4700"/>
+                </vorgaenge>
+                <vorgaenge beschreibung="WGR 5 40211179 0,00 EUR Abr.39 WZ 0 eingesetzt:21/08/2024 17:27:41 Flag:1" kategorie="TypGeldSpeicherInhalt" servicetechniker="0" zeitpunkt="2024-08-21T17:27:41+02:00">
+                    <metadaten guid="fa52ed73-21d4-4074-aeb6-d3c14d571b69" sequenznummer="4701"/>
+                </vorgaenge>
+                <vorgaenge beschreibung="INST Typ:MUV Herstllr:China Tech Model:WGR 2€ SerNr:40211179 InvntrNr:4 HrdwrVer: Ver:" kategorie="TypGeraet2" servicetechniker="0" zeitpunkt="2024-08-21T17:27:41+02:00">
+                    <metadaten guid="72cb3fa4-236b-476a-b054-88a28289c52d" sequenznummer="4702"/>
+                </vorgaenge>
+                <vorgaenge beschreibung="WGR 6 41211176 0,00 EUR Abr.39 WZ 0 eingesetzt:21/08/2024 17:27:42 Flag:1" kategorie="TypGeldSpeicherInhalt" servicetechniker="0" zeitpunkt="2024-08-21T17:27:42+02:00">
+                    <metadaten guid="3df86610-0fdb-40a3-a80b-73ccf17de5bf" sequenznummer="4703"/>
+                </vorgaenge>
+                <vorgaenge beschreibung="INST Typ:MUV Herstllr:China Tech Model:WGR 1€ SerNr:41211176 InvntrNr:5 HrdwrVer: Ver:" kategorie="TypGeraet2" servicetechniker="0" zeitpunkt="2024-08-21T17:27:42+02:00">
+                    <metadaten guid="3cd8ddff-bdc6-4833-9d39-5e5facea6f98" sequenznummer="4704"/>
+                </vorgaenge>
+                <vorgaenge beschreibung="ZGS 1 33201609 140,00 EUR Abr.39 WZ 0 eingesetzt:21/08/2024 17:27:42 Flag:1" kategorie="TypGeldSpeicherInhalt" servicetechniker="0" zeitpunkt="2024-08-21T17:27:42+02:00">
+                    <metadaten guid="33db1461-7af2-4954-bb51-a574b774c7a8" sequenznummer="4705"/>
+                </vorgaenge>
+                <vorgaenge beschreibung="INST Typ:MUV Herstllr:Hopper MK IV Model:ZGS 0,1€ SerNr:33201609 InvntrNr:0 HrdwrVer: Ver:" kategorie="TypGeraet2" servicetechniker="0" zeitpunkt="2024-08-21T17:27:42+02:00">
+                    <metadaten guid="af247d3c-dd99-4b03-97a2-f0ec963119d7" sequenznummer="4706"/>
+                </vorgaenge>
+                <vorgaenge beschreibung="ZGS 2 34204823 200,00 EUR Abr.39 WZ 0 eingesetzt:21/08/2024 17:27:42 Flag:1" kategorie="TypGeldSpeicherInhalt" servicetechniker="0" zeitpunkt="2024-08-21T17:27:42+02:00">
+                    <metadaten guid="4b61e173-182c-4031-81cc-51afbdb9a94c" sequenznummer="4707"/>
+                </vorgaenge>
+                <vorgaenge beschreibung="INST Typ:MUV Herstllr:Hopper MK IV Model:ZGS 2€ SerNr:34204823 InvntrNr:1 HrdwrVer: Ver:" kategorie="TypGeraet2" servicetechniker="0" zeitpunkt="2024-08-21T17:27:43+02:00">
+                    <metadaten guid="d30da021-9e0a-43b1-adb4-412a4bedc17d" sequenznummer="4708"/>
+                </vorgaenge>
+                <vorgaenge beschreibung="ZGS 3 31210510 100,00 EUR Abr.39 WZ 0 eingesetzt:21/08/2024 17:27:43 Flag:1" kategorie="TypGeldSpeicherInhalt" servicetechniker="0" zeitpunkt="2024-08-21T17:27:43+02:00">
+                    <metadaten guid="994d5add-ae5e-4222-9f33-eb3db997f2a0" sequenznummer="4709"/>
+                </vorgaenge>
+                <vorgaenge beschreibung="INST Typ:MUV Herstllr:Hopper MK IV Model:ZGS 1€ SerNr:31210510 InvntrNr:2 HrdwrVer: Ver:" kategorie="TypGeraet2" servicetechniker="0" zeitpunkt="2024-08-21T17:27:43+02:00">
+                    <metadaten guid="79abdefc-5cbd-4d3a-83d6-f6180b8343ad" sequenznummer="4710"/>
+                </vorgaenge>
+                <vorgaenge beschreibung="MEK 1 90000011 0,00 EUR Abr.39 WZ 0 eingesetzt:21/08/2024 17:27:43 Flag:1" kategorie="TypGeldSpeicherInhalt" servicetechniker="0" zeitpunkt="2024-08-21T17:27:43+02:00">
+                    <metadaten guid="4fd2d9c7-0e2f-4cb7-9d1e-520bafd78638" sequenznummer="4711"/>
+                </vorgaenge>
+                <vorgaenge beschreibung="INST Typ:MUV Herstllr:ICA Model:Muenzendkassette SerNr:90000011 InvntrNr:0 HrdwrVer: Ver:" kategorie="TypGeraet2" servicetechniker="0" zeitpunkt="2024-08-21T17:27:43+02:00">
+                    <metadaten guid="93a8402a-d160-461e-9ac9-8c488acad7b0" sequenznummer="4712"/>
+                </vorgaenge>
+                <vorgaenge beschreibung="BEK 1 676000331 0,00 EUR Abr.39 WZ 0 eingesetzt:21/08/2024 17:27:44 Flag:1" kategorie="TypGeldSpeicherInhalt" servicetechniker="0" zeitpunkt="2024-08-21T17:27:44+02:00">
+                    <metadaten guid="c6a46eed-a756-4ef3-99bf-269bdc68f62b" sequenznummer="4713"/>
+                </vorgaenge>
+                <vorgaenge beschreibung="INST Typ:BNV Herstllr:Citech Model:BEK SerNr:676000331 InvntrNr:0 HrdwrVer: Ver:133313EU25?" kategorie="TypGeraet2" servicetechniker="0" zeitpunkt="2024-08-21T17:27:44+02:00">
+                    <metadaten guid="10c3d2ea-eab5-43a0-a26b-f978ec9289d2" sequenznummer="4714"/>
+                </vorgaenge>
+                <vorgaenge beschreibung="BEK 0 99 0,00 EUR Abr.39 WZ 0 eingesetzt:21/08/2024 17:27:44 Flag:1" kategorie="TypGeldSpeicherInhalt" servicetechniker="0" zeitpunkt="2024-08-21T17:27:44+02:00">
+                    <metadaten guid="52089cfb-28c6-4256-909e-93bc8718ba4d" sequenznummer="4715"/>
+                </vorgaenge>
+                <vorgaenge beschreibung="INST Typ:BNV Herstllr:Citech Model:BZK SerNr:99 InvntrNr:1 HrdwrVer: Ver:" kategorie="TypGeraet2" servicetechniker="0" zeitpunkt="2024-08-21T17:27:44+02:00">
+                    <metadaten guid="91e21d44-8d30-47c5-a140-5be09dfbb441" sequenznummer="4716"/>
+                </vorgaenge>
+                <vorgaenge beschreibung="WGR 1 47211168 0,00 EUR Abr.39 WZ 0 eingesetzt:20/08/2024 23:59:10 Flag:2" kategorie="TypGeldSpeicherInhalt" servicetechniker="0" zeitpunkt="2024-08-21T17:27:49+02:00">
+                    <metadaten guid="c0bfa6a7-9029-4722-b84a-65a57c85db84" sequenznummer="4717"/>
+                </vorgaenge>
+                <vorgaenge beschreibung="WGR 2 44211138 0,00 EUR Abr.39 WZ 0 eingesetzt:20/08/2024 23:59:10 Flag:2" kategorie="TypGeldSpeicherInhalt" servicetechniker="0" zeitpunkt="2024-08-21T17:27:49+02:00">
+                    <metadaten guid="6edab0a5-4c39-4bec-9693-69b9072a8df9" sequenznummer="4718"/>
+                </vorgaenge>
+                <vorgaenge beschreibung="WGR 3 42211167 0,00 EUR Abr.39 WZ 0 eingesetzt:20/08/2024 23:59:11 Flag:2" kategorie="TypGeldSpeicherInhalt" servicetechniker="0" zeitpunkt="2024-08-21T17:27:50+02:00">
+                    <metadaten guid="b5c3868f-9fd0-40bc-8e71-0f1a4c487bd2" sequenznummer="4719"/>
+                </vorgaenge>
+                <vorgaenge beschreibung="WGR 4 43211148 0,00 EUR Abr.39 WZ 0 eingesetzt:20/08/2024 23:59:11 Flag:2" kategorie="TypGeldSpeicherInhalt" servicetechniker="0" zeitpunkt="2024-08-21T17:27:50+02:00">
+                    <metadaten guid="3464cddf-f9f8-4dda-afd8-63e75a885fae" sequenznummer="4720"/>
+                </vorgaenge>
+                <vorgaenge beschreibung="WGR 5 40211179 0,00 EUR Abr.39 WZ 0 eingesetzt:20/08/2024 23:59:11 Flag:2" kategorie="TypGeldSpeicherInhalt" servicetechniker="0" zeitpunkt="2024-08-21T17:27:50+02:00">
+                    <metadaten guid="2bc48f52-3435-4b2c-8fe4-b2afd313504a" sequenznummer="4721"/>
+                </vorgaenge>
+                <vorgaenge beschreibung="WGR 6 41211176 0,00 EUR Abr.39 WZ 0 eingesetzt:20/08/2024 23:59:12 Flag:2" kategorie="TypGeldSpeicherInhalt" servicetechniker="0" zeitpunkt="2024-08-21T17:27:50+02:00">
+                    <metadaten guid="c3fe1fb6-6e69-4565-91e1-d19840a9d973" sequenznummer="4722"/>
+                </vorgaenge>
+                <vorgaenge beschreibung="ZGS 1 33201609 140,00 EUR Abr.39 WZ 0 eingesetzt:20/08/2024 23:59:12 Flag:2" kategorie="TypGeldSpeicherInhalt" servicetechniker="0" zeitpunkt="2024-08-21T17:27:50+02:00">
+                    <metadaten guid="1985c67a-98f3-4f4e-9d4d-8cd130f88e30" sequenznummer="4723"/>
+                </vorgaenge>
+                <vorgaenge beschreibung="ZGS 2 34204823 200,00 EUR Abr.39 WZ 0 eingesetzt:20/08/2024 23:59:13 Flag:2" kategorie="TypGeldSpeicherInhalt" servicetechniker="0" zeitpunkt="2024-08-21T17:27:51+02:00">
+                    <metadaten guid="77d270ff-2aef-4365-9339-144dbc8bf0e0" sequenznummer="4724"/>
+                </vorgaenge>
+                <vorgaenge beschreibung="ZGS 3 31210510 100,00 EUR Abr.39 WZ 0 eingesetzt:20/08/2024 23:59:13 Flag:2" kategorie="TypGeldSpeicherInhalt" servicetechniker="0" zeitpunkt="2024-08-21T17:27:51+02:00">
+                    <metadaten guid="83c07aaf-fda9-445d-a765-9b02f0226dce" sequenznummer="4725"/>
+                </vorgaenge>
+                <vorgaenge beschreibung="MEK 1 90000011 0,00 EUR Abr.39 WZ 0 eingesetzt:20/08/2024 23:59:13 Flag:2" kategorie="TypGeldSpeicherInhalt" servicetechniker="0" zeitpunkt="2024-08-21T17:27:51+02:00">
+                    <metadaten guid="c7ef087d-a1a6-4c7d-9690-da8e0a0c7519" sequenznummer="4726"/>
+                </vorgaenge>
+                <vorgaenge beschreibung="BEK 1 676000331 0,00 EUR Abr.39 WZ 0 eingesetzt:20/08/2024 23:59:14 Flag:2" kategorie="TypGeldSpeicherInhalt" servicetechniker="0" zeitpunkt="2024-08-21T17:27:51+02:00">
+                    <metadaten guid="0c8f5f3e-6056-48ea-9d3f-8ad5dc7a5cd5" sequenznummer="4727"/>
+                </vorgaenge>
+                <vorgaenge beschreibung="BEK 0 99 0,00 EUR Abr.39 WZ 0 eingesetzt:20/08/2024 23:59:14 Flag:2" kategorie="TypGeldSpeicherInhalt" servicetechniker="0" zeitpunkt="2024-08-21T17:27:52+02:00">
+                    <metadaten guid="923d88a5-dcb5-419e-ab94-ada9c02ed102" sequenznummer="4728"/>
+                </vorgaenge>
+                <vorgaenge beschreibung="Nr:39 von:20/08/2024 23:59:15 | WGR(0,00  +0,00  -0,00  : 0,00 ), ZGS(440,00  +0,00  -0,00  : 440,00 ), Mnz(0,00  -0,00  : 0,00 ), Schn(0,00  -0,00  : 0,00 )" kategorie="TypAbrechnungSumme" servicetechniker="0" zeitpunkt="2024-08-21T17:27:52+02:00">
+                    <metadaten guid="e99e6d78-b4a2-4900-b80c-d490544f728e" sequenznummer="4729"/>
+                </vorgaenge>
+            </faaVorgangsmeldungen>
+        </empfangeSequenznummernbericht>
+    </s:Body>
+</s:Envelope>

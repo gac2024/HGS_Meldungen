@@ -1,0 +1,11 @@
+<s:Envelope xmlns:s="http://schemas.xmlsoap.org/soap/envelope/">
+    <s:Body xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+        <empfangeInventarmeldungBaugruppe xmlns="http://tms.ica.de/automatenService/wsdl/3_10/">
+            <faaInventarmeldungBaugruppe xmlns="http://tms.ica.de/automatenService/3_10/" zeitpunkt="2024-08-26T13:35:40.850+02:00" vorgangstyp="INSTALLATION" servicetechniker="0" vorgangsnummer="0" einbauposition="0" seriennummer="99009900" herstellerBezeichnung="Toyocom" betriebsstatus="IN_BETRIEB" gueltigkeit="1970-01-01T01:00:00.000+01:00" abrechnungsnummer="0" version="" sstVersion="3.10">
+                <verkaufspunkt posNummer="999000" betreiber="99" seriennummer="999000" ipAdresse="0.0.0.0"/>
+                <metadaten sequenznummer="10071" guid="75f84958-ad84-4ad1-98f5-551de61f5df0"/>
+                <baugruppentyp baugruppenkategorie="BNV" beschreibung="BZK" bezeichnung="BZK" geldspeichertyp="BEK"/>
+            </faaInventarmeldungBaugruppe>
+        </empfangeInventarmeldungBaugruppe>
+    </s:Body>
+</s:Envelope>

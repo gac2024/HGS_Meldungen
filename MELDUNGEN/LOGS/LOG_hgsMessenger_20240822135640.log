@@ -1,0 +1,39 @@
+################################################################################
+#####   Generator -> InventarmeldungGerät 
+################################################################################
+Started: 2024-08-22 13:56:40
+
+###############################################
+Arguments:
+###############################################
+ projektname                   : RANOREX
+ TESTFALLNAME                  : ENTNAHME_AUSSER_BETRIEB
+ mainpath                      : C:\_Daten\HGS_Meldungen\MELDUNGEN
+ MELDUNGSNAME                  : InventarmeldungGerät
+ testfallname                  : ENTNAHME_AUSSER_BETRIEB
+ meldungsname                  : InventarmeldungGerät
+ PROJEKTNAME                   : RANOREX
+ MAINPATH                      : C:\_Daten\HGS_Meldungen\MELDUNGEN
+###############################################
+
+
+###############################################
+Eingangsdaten:
+###############################################
+
+InventarmeldungGeraet:geraetestatus = AUSSER_BETRIEB
+InventarmeldungGeraet:servicetechniker = 0
+InventarmeldungGeraet:sstVersion = 3.10
+InventarmeldungGeraet:vorgangstyp = ENTNAHME
+InventarmeldungGeraet:zeitpunkt = 
+------------------------------------------
+GLOBAL:PROJEKTNAME = RANOREX
+GLOBAL:DATABASE = C:\_Daten\HGS_Meldungen\MELDUNGEN/CONFIG\RANOREX\database.ini
+GLOBAL:AUTOMAT = 999000
+GLOBAL:URLHGS = https://uestra.dev.ti-ica.de/dplus/services/automatenService/3_10/?wsdl
+GLOBAL:VERSION = 3.10
+GLOBAL:TRANSFERFILE = C:\_Daten\HGS_Meldungen\MELDUNGEN/CONFIG/TRANSFER/transfer_RANOREX.ini
+------------------------------------------
+
+###############################################
+

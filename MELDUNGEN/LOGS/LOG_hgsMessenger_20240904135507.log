@@ -1,0 +1,92 @@
+################################################################################
+#####   Generator -> Sequenznummernbericht 
+################################################################################
+Started: 2024-09-04 13:55:07
+
+###############################################
+Arguments:
+###############################################
+ projektname                   : RANOREX
+ TESTFALLNAME                  : 3Sequenzen_TypHealthMeldung
+ mainpath                      : C:\_Daten\HGS_Meldungen\MELDUNGEN
+ MELDUNGSNAME                  : Sequenznummernbericht
+ testfallname                  : 3Sequenzen_TypHealthMeldung
+ meldungsname                  : Sequenznummernbericht
+ PROJEKTNAME                   : RANOREX
+ MAINPATH                      : C:\_Daten\HGS_Meldungen\MELDUNGEN
+###############################################
+
+
+###############################################
+Eingangsdaten:
+###############################################
+
+TestData:anzahlsequenzen = 3
+------------------------------------------
+VorgangsMeldungen:sstVersion = 3.10
+VorgangsMeldungen:versionKey = -1
+VorgangsMeldungen:ersteSequenz = 
+VorgangsMeldungen:letzteSequenz = 
+------------------------------------------
+vorgaenge_1:servicetechniker = 0
+vorgaenge_1:zeitpunkt = 
+vorgaenge_1:beschreibung = Status:Betriebsbereit A Verkauf:10.07.2024 14:24:01 Bedienung:10.07.2024 15:35:48
+vorgaenge_1:kategorie = TypHealthMeldung
+------------------------------------------
+vorgaenge_2:servicetechniker = 0
+vorgaenge_2:zeitpunkt = 
+vorgaenge_2:beschreibung = Status:Betriebsbereit B Verkauf:10.07.2024 14:24:01 Bedienung:10.07.2024 15:35:48
+vorgaenge_2:kategorie = TypHealthMeldung
+------------------------------------------
+vorgaenge_3:servicetechniker = 0
+vorgaenge_3:zeitpunkt = 
+vorgaenge_3:beschreibung = Status:Betriebsbereit C Verkauf:10.07.2024 14:24:01 Bedienung:10.07.2024 15:35:48
+vorgaenge_3:kategorie = TypHealthMeldung
+------------------------------------------
+GLOBAL:PROJEKTNAME = RANOREX
+GLOBAL:DATABASE = C:\_Daten\HGS_Meldungen\MELDUNGEN/CONFIG\RANOREX\database.ini
+GLOBAL:AUTOMAT = 999000
+GLOBAL:URLHGS = https://uestra.dev.ti-ica.de/dplus/services/automatenService/3_10/?wsdl
+GLOBAL:VERSION = 3.10
+GLOBAL:TRANSFERFILE = C:\_Daten\HGS_Meldungen\MELDUNGEN/CONFIG/TRANSFER/transfer_RANOREX.ini
+------------------------------------------
+
+###############################################
+
+###############################################
+Message:
+###############################################
+<s:Envelope xmlns:s="http://schemas.xmlsoap.org/soap/envelope/">
+    <s:Body xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+        <empfangeSequenznummernbericht xmlns="http://tms.ica.de/automatenService/wsdl/3_10/">
+            <faaVorgangsmeldungen xmlns="http://tms.ica.de/automatenService/3_10/" sstVersion="3.10">
+                <verkaufspunkt posNummer="999000" betreiber="99" seriennummer="999000" ipAdresse="0.0.0.0"/>
+                <versionKey>-1</versionKey>
+                <ersteSequenz>10664</ersteSequenz>
+                <letzteSequenz>10666</letzteSequenz>
+                <vorgaenge servicetechniker="0" zeitpunkt="2024-09-04T13:55:07.884+02:00" kategorie="TypHealthMeldung" beschreibung="Status:Betriebsbereit A Verkauf:10.07.2024 14:24:01 Bedienung:10.07.2024 15:35:48">
+                    <metadaten sequenznummer="10664" guid="802cc75d-de4d-4ad9-aa7a-f072d6736d85"/>
+                </vorgaenge>
+                <vorgaenge servicetechniker="0" zeitpunkt="2024-09-04T13:55:08.155+02:00" kategorie="TypHealthMeldung" beschreibung="Status:Betriebsbereit B Verkauf:10.07.2024 14:24:01 Bedienung:10.07.2024 15:35:48">
+                    <metadaten sequenznummer="10665" guid="e4861f8e-8ff3-40f0-b228-6485bb584bd0"/>
+                </vorgaenge>
+                <vorgaenge servicetechniker="0" zeitpunkt="2024-09-04T13:55:08.156+02:00" kategorie="TypHealthMeldung" beschreibung="Status:Betriebsbereit C Verkauf:10.07.2024 14:24:01 Bedienung:10.07.2024 15:35:48">
+                    <metadaten sequenznummer="10666" guid="ef2bff9e-360f-4a74-be94-adab91a17f6d"/>
+                </vorgaenge>
+            </faaVorgangsmeldungen>
+        </empfangeSequenznummernbericht>
+    </s:Body>
+</s:Envelope>
+
+
+###############################################
+###############################################
+Result:
+###############################################
+
+
+###############################################
+################################################################################
+
+Finished: 2024-09-04 13:55:08
+

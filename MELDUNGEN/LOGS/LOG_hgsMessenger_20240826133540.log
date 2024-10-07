@@ -1,0 +1,81 @@
+################################################################################
+#####   Generator -> InventarmeldungBaugruppe 
+################################################################################
+Started: 2024-08-26 13:35:40
+
+###############################################
+Arguments:
+###############################################
+ projektname                   : RANOREX
+ TESTFALLNAME                  : InventarmeldungBaugruppe_BEK
+ mainpath                      : C:\_Daten\HGS_Meldungen\MELDUNGEN
+ MELDUNGSNAME                  : InventarmeldungBaugruppe
+ testfallname                  : InventarmeldungBaugruppe_BEK
+ meldungsname                  : InventarmeldungBaugruppe
+ PROJEKTNAME                   : RANOREX
+ MAINPATH                      : C:\_Daten\HGS_Meldungen\MELDUNGEN
+###############################################
+
+
+###############################################
+Eingangsdaten:
+###############################################
+
+Testdata:status = Installiert
+Testdata:baugruppenkategorie = BNV
+------------------------------------------
+InventarmeldungBaugruppe:abrechnungsnummer = 0
+InventarmeldungBaugruppe:betriebsstatus = IN_BETRIEB
+InventarmeldungBaugruppe:einbauposition = 0
+InventarmeldungBaugruppe:gueltigkeit = 1970-01-01T01:00:00+01:00
+InventarmeldungBaugruppe:servicetechniker = 0
+InventarmeldungBaugruppe:sstVersion = 3.10
+InventarmeldungBaugruppe:version = 
+InventarmeldungBaugruppe:vorgangsnummer = 0
+InventarmeldungBaugruppe:vorgangstyp = INSTALLATION
+InventarmeldungBaugruppe:zeitpunkt = 
+InventarmeldungBaugruppe:herstellerBezeichnung = Toyocom
+InventarmeldungBaugruppe:seriennummer = 99009900
+------------------------------------------
+baugruppentyp_1:baugruppenkategorie = BNV
+baugruppentyp_1:beschreibung = BZK
+baugruppentyp_1:geldspeichertyp = BEK
+baugruppentyp_1:bezeichnung = BZK
+------------------------------------------
+GLOBAL:PROJEKTNAME = RANOREX
+GLOBAL:DATABASE = C:\_Daten\HGS_Meldungen\MELDUNGEN/CONFIG\RANOREX\database.ini
+GLOBAL:AUTOMAT = 999000
+GLOBAL:URLHGS = https://uestra.dev.ti-ica.de/dplus/services/automatenService/3_10/?wsdl
+GLOBAL:VERSION = 3.10
+GLOBAL:TRANSFERFILE = C:\_Daten\HGS_Meldungen\MELDUNGEN/CONFIG/TRANSFER/transfer_RANOREX.ini
+------------------------------------------
+
+###############################################
+
+###############################################
+Message:
+###############################################
+<s:Envelope xmlns:s="http://schemas.xmlsoap.org/soap/envelope/">
+    <s:Body xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+        <empfangeInventarmeldungBaugruppe xmlns="http://tms.ica.de/automatenService/wsdl/3_10/">
+            <faaInventarmeldungBaugruppe xmlns="http://tms.ica.de/automatenService/3_10/" zeitpunkt="2024-08-26T13:35:40.850+02:00" vorgangstyp="INSTALLATION" servicetechniker="0" vorgangsnummer="0" einbauposition="0" seriennummer="99009900" herstellerBezeichnung="Toyocom" betriebsstatus="IN_BETRIEB" gueltigkeit="1970-01-01T01:00:00.000+01:00" abrechnungsnummer="0" version="" sstVersion="3.10">
+                <verkaufspunkt posNummer="999000" betreiber="99" seriennummer="999000" ipAdresse="0.0.0.0"/>
+                <metadaten sequenznummer="10071" guid="75f84958-ad84-4ad1-98f5-551de61f5df0"/>
+                <baugruppentyp baugruppenkategorie="BNV" beschreibung="BZK" bezeichnung="BZK" geldspeichertyp="BEK"/>
+            </faaInventarmeldungBaugruppe>
+        </empfangeInventarmeldungBaugruppe>
+    </s:Body>
+</s:Envelope>
+
+
+###############################################
+###############################################
+Result:
+###############################################
+OK
+
+###############################################
+################################################################################
+
+Finished: 2024-08-26 13:35:43
+

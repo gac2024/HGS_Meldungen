@@ -1,0 +1,82 @@
+################################################################################
+#####   Generator -> Ereignismeldung 
+################################################################################
+Started: 2024-08-20 10:30:46
+
+###############################################
+Arguments:
+###############################################
+ projektname                   : RANOREX
+ TESTFALLNAME                  : tmp_Ereignismeldung
+ mainpath                      : C:\_Daten\HGS_Meldungen\MELDUNGEN
+ MELDUNGSNAME                  : Ereignismeldung
+ testfallname                  : tmp_Ereignismeldung
+ meldungsname                  : Ereignismeldung
+ PROJEKTNAME                   : RANOREX
+ MAINPATH                      : C:\_Daten\HGS_Meldungen\MELDUNGEN
+###############################################
+
+
+###############################################
+Eingangsdaten:
+###############################################
+
+Ereignismeldung:baugruppenkategorie = NICHT_RELEVANT
+Ereignismeldung:baugruppenstatus = UNBEKANNT
+Ereignismeldung:baugruppentypBezeichnung = 
+Ereignismeldung:ereigniscode = 10019
+Ereignismeldung:ereignisstatus = EINGETRETEN
+Ereignismeldung:ereignistext = CEMAS-Kommando
+Ereignismeldung:geraetestatus = IN_BETRIEB
+Ereignismeldung:herstellerBezeichnung = 
+Ereignismeldung:kurs = *******************
+Ereignismeldung:linie = *******************
+Ereignismeldung:seriennummer = 
+Ereignismeldung:servicetechniker = 
+Ereignismeldung:sstVersion = 3.10
+Ereignismeldung:tuerstatus = GESCHLOSSEN
+Ereignismeldung:zeitpunkt = 2024-08-02T08:24:43+02:00
+Ereignismeldung:zusatzinformationen = Automat in Betrieb
+------------------------------------------
+TESTCREDENTINALS:geraetestatus = IN_BETRIEB
+TESTCREDENTINALS:kosten = 94
+TESTCREDENTINALS:seriennummer = 832648732648
+TESTCREDENTINALS:zeiput = heute
+TESTCREDENTINALS:irgendwasandres = sososos
+------------------------------------------
+GLOBAL:PROJEKTNAME = RANOREX
+GLOBAL:DATABASE = C:\_Daten\HGS_Meldungen\MELDUNGEN/CONFIG\RANOREX\database.ini
+GLOBAL:AUTOMAT = 999000
+GLOBAL:URLHGS = https://uestra.dev.ti-ica.de/dplus/services/automatenService/3_10/?wsdl
+GLOBAL:VERSION = 3.10
+GLOBAL:TRANSFERFILE = C:\_Daten\HGS_Meldungen\MELDUNGEN/CONFIG/TRANSFER/transfer_RANOREX.ini
+------------------------------------------
+
+###############################################
+
+###############################################
+Message:
+###############################################
+<s:Envelope xmlns:s="http://schemas.xmlsoap.org/soap/envelope/">
+    <s:Body xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+        <empfangeEreignismeldung xmlns="http://tms.ica.de/automatenService/wsdl/3_10/">
+            <faaEreignismeldung xmlns="http://tms.ica.de/automatenService/3_10/" zeitpunkt="2024-08-02T08:24:43.000+02:00" servicetechniker="" ereigniscode="10019" zusatzinformationen="Automat in Betrieb" ereignisstatus="EINGETRETEN" baugruppenkategorie="NICHT_RELEVANT" baugruppenstatus="UNBEKANNT" seriennummer="" geraetestatus="IN_BETRIEB" tuerstatus="GESCHLOSSEN" ereignistext="CEMAS-Kommando" baugruppentypBezeichnung="" herstellerBezeichnung="" kurs="*******************" linie="*******************" sstVersion="3.10">
+                <verkaufspunkt posNummer="999000" betreiber="99" seriennummer="999000" ipAdresse="0.0.0.0"/>
+                <metadaten sequenznummer="10023" guid="032244f4-bd0c-46e0-8f36-07d973669e68"/>
+            </faaEreignismeldung>
+        </empfangeEreignismeldung>
+    </s:Body>
+</s:Envelope>
+
+
+###############################################
+###############################################
+Result:
+###############################################
+OK
+
+###############################################
+################################################################################
+
+Finished: 2024-08-20 10:30:48
+
